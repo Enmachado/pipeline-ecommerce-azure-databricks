@@ -1,0 +1,501 @@
+order_id,data_pedido,cliente_id,nome_cliente,cidade,estado,produto_nome,categoria,quantidade,preco_unitario,desconto_pct,valor_total,frete,canal_venda,forma_pagamento,prazo_entrega_dias,status_pedido
+PED00001,2024-10-06,C001,Ana Souza,São Paulo,SP,Smart TV LG 50 4K,Eletrônicos,3,2550.51,0.02,7498.5,5.11,Televendas,Cartão de Crédito,3,Devolvido
+PED00002,2024-11-28,C002,Bruno Lima,Rio de Janeiro,RJ,Notebook Dell Inspiron 15,Eletrônicos,2,2996.85,0.09,5454.27,28.01,Televendas,Pix,13,Devolvido
+PED00003,2024-12-23,C010,João Pedro Silva,Brasília,DF,Livro Python para Dados,Livros,3,94.61,0.0,283.83,40.21,Marketplace,Pix,8,Entregue
+PED00004,2024-06-25,C013,Natália Barbosa,Florianópolis,SC,Teclado Mecânico Redragon,Periféricos,3,288.06,0.06,812.33,17.91,Site,Cartão de Débito,11,Entregue
+PED00005,2024-07-04,C002,Bruno Lima,Rio de Janeiro,RJ,Cafeteira Nespresso Essenza,Eletrodomésticos,4,607.92,0.04,2334.41,31.37,Site,Cartão de Crédito,11,Entregue
+PED00006,2024-07-13,C013,Natália Barbosa,Florianópolis,SC,Monitor LG 27 Full HD,Periféricos,3,1534.72,0.13,4005.62,43.24,Marketplace,Pix,6,Cancelado
+PED00007,2024-02-06,C006,Felipe Costa,Salvador,BA,Camiseta Básica Hering,Moda,2,60.95,0.11,108.49,34.11,App Mobile,Pix,11,Em trânsito
+PED00008,2024-04-22,C008,Henrique Alves,Fortaleza,CE,Mouse Logitech MX Master 3,Periféricos,4,458.65,0.14,1577.76,34.34,Site,Pix,12,Entregue
+PED00009,2024-10-17,C013,Natália Barbosa,Florianópolis,SC,Smartphone Samsung Galaxy A54,Eletrônicos,3,1804.6,0.01,5359.66,45.57,App Mobile,Cartão de Débito,13,Entregue
+PED00010,2024-10-02,C015,Priscila Rocha,Belém,PA,Calça Jeans Levi's 501,Moda,4,265.63,0.02,1041.27,37.17,Televendas,Cartão de Débito,6,Em trânsito
+PED00011,2024-02-26,C004,Diego Ferreira,Curitiba,PR,Camiseta Básica Hering,Moda,2,58.55,0.01,115.93,2.35,App Mobile,Cartão de Débito,4,Em trânsito
+PED00012,2024-10-10,C002,Bruno Lima,Rio de Janeiro,RJ,Aspirador Robô iRobot Roomba,Eletrodomésticos,4,2078.95,0.15,7068.43,26.4,Site,Boleto,15,Entregue
+PED00013,2024-05-14,C002,Bruno Lima,Rio de Janeiro,RJ,Tênis Nike Air Max,Moda,3,575.12,0.07,1604.58,47.6,Site,Boleto,10,Entregue
+PED00014,2024-09-28,C010,João Pedro Silva,Brasília,DF,Livro SQL para Iniciantes,Livros,2,70.97,0.11,126.33,26.92,Marketplace,Cartão de Débito,2,Devolvido
+PED00015,2024-01-30,C002,Bruno Lima,Rio de Janeiro,RJ,Notebook Dell Inspiron 15,Eletrônicos,3,3529.84,0.12,9318.78,15.34,Site,Cartão de Crédito,5,Devolvido
+PED00016,2024-12-03,C014,Otávio Gomes,Vitória,ES,Livro Clean Code,Livros,1,120.29,0.08,110.67,6.28,App Mobile,Boleto,9,Devolvido
+PED00017,2024-12-19,C014,Otávio Gomes,Vitória,ES,Livro SQL para Iniciantes,Livros,5,76.37,0.03,370.39,26.91,Marketplace,Cartão de Débito,5,Em trânsito
+PED00018,2024-01-11,C008,Henrique Alves,Fortaleza,CE,Camiseta Básica Hering,Moda,5,57.68,0.04,276.86,3.19,App Mobile,Pix,11,Devolvido
+PED00019,2024-02-06,C002,Bruno Lima,Rio de Janeiro,RJ,Notebook Dell Inspiron 15,Eletrônicos,1,2993.79,0.14,2574.66,42.9,Marketplace,Cartão de Débito,10,Entregue
+PED00020,2024-05-04,C009,Isabela Martins,Campinas,SP,Teclado Mecânico Redragon,Periféricos,2,339.15,0.13,590.12,28.75,Televendas,Pix,14,Cancelado
+PED00021,2024-01-28,C002,Bruno Lima,Rio de Janeiro,RJ,Smart TV LG 50 4K,Eletrônicos,4,2627.07,0.06,9877.78,43.11,Site,Cartão de Crédito,12,Em trânsito
+PED00022,2024-10-01,C012,Marcelo Torres,Manaus,AM,Calça Jeans Levi's 501,Moda,3,314.94,0.02,925.92,9.56,Televendas,Pix,9,Entregue
+PED00023,2024-10-08,C008,Henrique Alves,Fortaleza,CE,Cadeira Gamer ThunderX3,Móveis,2,2029.31,0.01,4018.03,40.32,Site,Cartão de Crédito,3,Entregue
+PED00024,2024-01-31,C003,Carla Mendes,Belo Horizonte,MG,Monitor LG 27 Full HD,Periféricos,4,1359.88,0.03,5276.33,20.01,Site,Cartão de Débito,4,Cancelado
+PED00025,2024-10-11,C015,Priscila Rocha,Belém,PA,Cadeira Gamer ThunderX3,Móveis,4,1749.57,0.1,6298.45,36.45,Televendas,Pix,12,Em trânsito
+PED00026,2024-06-09,C005,Elisa Ramos,Porto Alegre,RS,Teclado Mecânico Redragon,Periféricos,2,359.33,0.09,653.98,27.06,Televendas,Pix,2,Entregue
+PED00027,2024-04-30,C009,Isabela Martins,Campinas,SP,Smartphone Samsung Galaxy A54,Eletrônicos,1,2018.32,0.01,1998.14,3.39,App Mobile,Cartão de Crédito,8,Entregue
+PED00028,2024-05-13,C002,Bruno Lima,Rio de Janeiro,RJ,Aspirador Robô iRobot Roomba,Eletrodomésticos,4,2230.54,0.08,8208.39,15.79,Marketplace,Pix,5,Em trânsito
+PED00029,2024-02-07,C007,Gabriela Nunes,Recife,PE,Cadeira Gamer ThunderX3,Móveis,2,1933.03,0.04,3711.42,15.78,Site,Cartão de Crédito,2,Cancelado
+PED00030,2024-05-05,C004,Diego Ferreira,Curitiba,PR,Cafeteira Nespresso Essenza,Eletrodomésticos,5,640.49,0.14,2754.11,43.96,App Mobile,Cartão de Débito,7,Entregue
+PED00031,2024-01-05,C012,Marcelo Torres,Manaus,AM,Cafeteira Nespresso Essenza,Eletrodomésticos,3,701.04,0.15,1787.65,32.63,Marketplace,Cartão de Crédito,12,Devolvido
+PED00032,2024-05-24,C005,Elisa Ramos,Porto Alegre,RS,Tablet Lenovo M10,Eletrônicos,1,1285.84,0.11,1144.4,7.76,Marketplace,Pix,11,Entregue
+PED00033,2024-11-20,C009,Isabela Martins,Campinas,SP,Cadeira Gamer ThunderX3,Móveis,4,1733.37,0.14,5962.79,2.53,Site,Cartão de Crédito,8,Entregue
+PED00034,2024-10-09,C013,Natália Barbosa,Florianópolis,SC,Tênis Nike Air Max,Moda,2,605.47,0.04,1162.5,36.99,Site,Cartão de Crédito,13,Cancelado
+PED00035,2024-03-16,C015,Priscila Rocha,Belém,PA,Fone Bluetooth JBL Tune 510,Eletrônicos,2,246.5,0.13,428.91,29.07,Site,Boleto,8,Entregue
+PED00036,2024-02-22,C015,Priscila Rocha,Belém,PA,Camiseta Básica Hering,Moda,1,64.38,0.03,62.45,12.45,Televendas,Pix,7,Devolvido
+PED00037,2024-01-13,C014,Otávio Gomes,Vitória,ES,Monitor LG 27 Full HD,Periféricos,2,1531.56,0.12,2695.55,43.98,Marketplace,Cartão de Débito,4,Em trânsito
+PED00038,2024-08-28,C005,Elisa Ramos,Porto Alegre,RS,Monitor LG 27 Full HD,Periféricos,2,1465.48,0.02,2872.34,43.52,Televendas,Boleto,5,Entregue
+PED00039,2024-05-22,C014,Otávio Gomes,Vitória,ES,Mesa de Escritório L Kappesberg,Móveis,2,588.63,0.1,1059.53,19.88,Marketplace,Boleto,15,Entregue
+PED00040,2024-05-13,C007,Gabriela Nunes,Recife,PE,Livro SQL para Iniciantes,Livros,5,74.53,0.0,372.65,43.76,Marketplace,Cartão de Crédito,4,Devolvido
+PED00041,2024-09-18,C010,João Pedro Silva,Brasília,DF,Smart TV LG 50 4K,Eletrônicos,4,2621.04,0.12,9226.06,21.78,App Mobile,Boleto,3,Cancelado
+PED00042,2024-12-09,C012,Marcelo Torres,Manaus,AM,Smartphone Samsung Galaxy A54,Eletrônicos,4,1614.95,0.14,5555.43,26.87,Televendas,Cartão de Crédito,5,Entregue
+PED00043,2024-09-16,C010,João Pedro Silva,Brasília,DF,Tênis Nike Air Max,Moda,3,609.41,0.02,1791.67,44.91,Televendas,Boleto,6,Em trânsito
+PED00044,2024-07-13,C012,Marcelo Torres,Manaus,AM,Calça Jeans Levi's 501,Moda,3,296.48,0.03,862.76,33.18,App Mobile,Boleto,12,Em trânsito
+PED00045,2024-11-06,C009,Isabela Martins,Campinas,SP,Calça Jeans Levi's 501,Moda,1,277.7,0.03,269.37,39.21,Televendas,Cartão de Débito,12,Entregue
+PED00046,2024-03-27,C011,Larissa Oliveira,Goiânia,GO,Livro Python para Dados,Livros,2,87.9,0.12,154.7,47.9,Marketplace,Boleto,12,Entregue
+PED00047,2024-01-13,C014,Otávio Gomes,Vitória,ES,Fone Bluetooth JBL Tune 510,Eletrônicos,2,254.45,0.03,493.63,9.94,Televendas,Cartão de Crédito,2,Entregue
+PED00048,2024-05-04,C007,Gabriela Nunes,Recife,PE,Livro Python para Dados,Livros,5,80.78,0.1,363.51,24.67,Site,Cartão de Crédito,4,Em trânsito
+PED00049,2024-10-12,C004,Diego Ferreira,Curitiba,PR,Mochila Samsonite 30L,Moda,2,471.91,0.1,849.44,23.18,Televendas,Pix,5,Entregue
+PED00050,2024-08-14,C011,Larissa Oliveira,Goiânia,GO,Livro Python para Dados,Livros,5,98.62,0.09,448.72,47.41,Televendas,Cartão de Débito,11,Em trânsito
+PED00051,2024-05-21,C012,Marcelo Torres,Manaus,AM,Mouse Logitech MX Master 3,Periféricos,4,481.16,0.11,1712.93,41.91,Televendas,Pix,14,Devolvido
+PED00052,2024-10-03,C008,Henrique Alves,Fortaleza,CE,Cadeira Gamer ThunderX3,Móveis,1,1952.91,0.04,1874.79,16.76,App Mobile,Pix,3,Entregue
+PED00053,2024-10-04,C012,Marcelo Torres,Manaus,AM,Calça Jeans Levi's 501,Moda,2,307.88,0.01,609.6,20.34,Site,Pix,9,Cancelado
+PED00054,2024-10-21,C007,Gabriela Nunes,Recife,PE,Mochila Samsonite 30L,Moda,5,487.85,0.0,2439.25,43.94,Site,Boleto,8,Cancelado
+PED00055,2024-10-06,C013,Natália Barbosa,Florianópolis,SC,Mesa de Escritório L Kappesberg,Móveis,4,691.08,0.14,2377.32,20.91,App Mobile,Cartão de Débito,14,Devolvido
+PED00056,2024-07-26,C005,Elisa Ramos,Porto Alegre,RS,Monitor LG 27 Full HD,Periféricos,4,1359.88,0.06,5113.15,33.38,Televendas,Pix,13,Entregue
+PED00057,2024-02-12,C009,Isabela Martins,Campinas,SP,Aspirador Robô iRobot Roomba,Eletrodomésticos,1,2367.73,0.09,2154.63,33.08,App Mobile,Cartão de Débito,12,Cancelado
+PED00058,2024-07-13,C001,Ana Souza,São Paulo,SP,Mouse Logitech MX Master 3,Periféricos,3,472.29,0.03,1374.36,16.31,Marketplace,Cartão de Crédito,6,Cancelado
+PED00059,2024-02-05,C001,Ana Souza,São Paulo,SP,Livro Clean Code,Livros,5,94.85,0.14,407.86,11.19,Site,Cartão de Crédito,14,Em trânsito
+PED00060,2024-02-28,C004,Diego Ferreira,Curitiba,PR,Monitor LG 27 Full HD,Periféricos,1,1407.37,0.04,1351.08,23.63,Televendas,Boleto,11,Entregue
+PED00061,2024-03-24,C003,Carla Mendes,Belo Horizonte,MG,Camiseta Básica Hering,Moda,5,60.01,0.11,267.04,5.72,Site,Boleto,6,Entregue
+PED00062,2024-12-19,C011,Larissa Oliveira,Goiânia,GO,Air Fryer Philips Walita,Eletrodomésticos,4,569.4,0.11,2027.06,3.79,App Mobile,Cartão de Crédito,15,Em trânsito
+PED00063,2024-01-22,C014,Otávio Gomes,Vitória,ES,Mesa de Escritório L Kappesberg,Móveis,5,683.29,0.12,3006.48,28.24,Televendas,Boleto,7,Devolvido
+PED00064,2024-08-09,C009,Isabela Martins,Campinas,SP,Fone Bluetooth JBL Tune 510,Eletrônicos,3,213.21,0.06,601.25,24.46,Televendas,Pix,7,Em trânsito
+PED00065,2024-10-02,C003,Carla Mendes,Belo Horizonte,MG,Mochila Samsonite 30L,Moda,5,490.02,0.04,2352.1,40.33,Televendas,Cartão de Débito,14,Cancelado
+PED00066,2024-08-18,C005,Elisa Ramos,Porto Alegre,RS,Air Fryer Philips Walita,Eletrodomésticos,3,637.65,0.12,1683.4,4.32,Televendas,Boleto,5,Cancelado
+PED00067,2024-06-23,C008,Henrique Alves,Fortaleza,CE,Notebook Dell Inspiron 15,Eletrônicos,3,2954.93,0.03,8598.85,39.81,Marketplace,Cartão de Crédito,6,Devolvido
+PED00068,2024-05-03,C004,Diego Ferreira,Curitiba,PR,Livro SQL para Iniciantes,Livros,1,72.74,0.06,68.38,27.7,Televendas,Cartão de Débito,13,Cancelado
+PED00069,2024-10-24,C002,Bruno Lima,Rio de Janeiro,RJ,Notebook Dell Inspiron 15,Eletrônicos,3,2987.73,0.1,8066.87,15.28,Marketplace,Cartão de Débito,7,Cancelado
+PED00070,2024-03-02,C006,Felipe Costa,Salvador,BA,Cafeteira Nespresso Essenza,Eletrodomésticos,3,716.97,0.04,2064.87,12.55,Marketplace,Cartão de Crédito,13,Entregue
+PED00071,2024-10-28,C013,Natália Barbosa,Florianópolis,SC,Cafeteira Nespresso Essenza,Eletrodomésticos,2,627.62,0.11,1117.16,13.8,Marketplace,Cartão de Crédito,14,Devolvido
+PED00072,2024-03-05,C005,Elisa Ramos,Porto Alegre,RS,Teclado Mecânico Redragon,Periféricos,2,309.33,0.05,587.73,35.33,Site,Boleto,6,Entregue
+PED00073,2024-09-02,C011,Larissa Oliveira,Goiânia,GO,Tablet Lenovo M10,Eletrônicos,4,1049.9,0.0,4199.6,14.19,App Mobile,Cartão de Crédito,9,Entregue
+PED00074,2024-10-22,C014,Otávio Gomes,Vitória,ES,Cadeira Gamer ThunderX3,Móveis,4,1668.31,0.01,6606.51,24.54,Site,Pix,12,Em trânsito
+PED00075,2024-10-12,C013,Natália Barbosa,Florianópolis,SC,Tablet Lenovo M10,Eletrônicos,5,1303.65,0.01,6453.07,12.38,App Mobile,Cartão de Débito,14,Cancelado
+PED00076,2024-10-18,C015,Priscila Rocha,Belém,PA,Livro Python para Dados,Livros,4,83.1,0.09,302.48,21.4,Site,Pix,11,Entregue
+PED00077,2024-01-02,C005,Elisa Ramos,Porto Alegre,RS,Teclado Mecânico Redragon,Periféricos,1,292.57,0.03,283.79,3.75,Televendas,Boleto,8,Cancelado
+PED00078,2024-12-17,C004,Diego Ferreira,Curitiba,PR,Smartphone Samsung Galaxy A54,Eletrônicos,3,1949.78,0.11,5205.91,22.66,App Mobile,Cartão de Débito,5,Entregue
+PED00079,2024-02-06,C009,Isabela Martins,Campinas,SP,Smart TV LG 50 4K,Eletrônicos,2,2832.33,0.14,4871.61,41.25,Marketplace,Boleto,2,Entregue
+PED00080,2024-09-13,C002,Bruno Lima,Rio de Janeiro,RJ,Livro Python para Dados,Livros,4,91.89,0.1,330.8,47.04,Televendas,Cartão de Crédito,10,Cancelado
+PED00081,2024-04-27,C001,Ana Souza,São Paulo,SP,Aspirador Robô iRobot Roomba,Eletrodomésticos,4,2272.96,0.09,8273.57,1.29,Site,Boleto,12,Devolvido
+PED00082,2024-04-02,C001,Ana Souza,São Paulo,SP,Air Fryer Philips Walita,Eletrodomésticos,2,580.48,0.1,1044.86,45.71,Televendas,Cartão de Crédito,11,Cancelado
+PED00083,2024-06-17,C006,Felipe Costa,Salvador,BA,Livro Clean Code,Livros,4,102.57,0.1,369.25,42.8,Televendas,Boleto,8,Em trânsito
+PED00084,2024-02-29,C014,Otávio Gomes,Vitória,ES,Calça Jeans Levi's 501,Moda,5,257.67,0.01,1275.47,12.59,Site,Cartão de Débito,14,Cancelado
+PED00085,2024-08-14,C001,Ana Souza,São Paulo,SP,Mochila Samsonite 30L,Moda,2,439.84,0.09,800.51,24.87,App Mobile,Boleto,14,Entregue
+PED00086,2024-11-18,C003,Carla Mendes,Belo Horizonte,MG,Cafeteira Nespresso Essenza,Eletrodomésticos,3,670.71,0.1,1810.92,6.06,App Mobile,Boleto,11,Entregue
+PED00087,2024-02-28,C001,Ana Souza,São Paulo,SP,Cafeteira Nespresso Essenza,Eletrodomésticos,5,665.45,0.03,3227.43,41.99,App Mobile,Cartão de Débito,9,Entregue
+PED00088,2024-08-21,C009,Isabela Martins,Campinas,SP,Mesa de Escritório L Kappesberg,Móveis,3,619.92,0.07,1729.58,23.56,Televendas,Pix,10,Entregue
+PED00089,2024-07-31,C009,Isabela Martins,Campinas,SP,Aspirador Robô iRobot Roomba,Eletrodomésticos,2,2344.15,0.04,4500.77,39.42,Marketplace,Cartão de Crédito,7,Devolvido
+PED00090,2024-03-17,C012,Marcelo Torres,Manaus,AM,Mesa de Escritório L Kappesberg,Móveis,3,688.48,0.09,1879.55,32.93,Televendas,Boleto,9,Devolvido
+PED00091,2024-12-23,C009,Isabela Martins,Campinas,SP,Tênis Nike Air Max,Moda,5,566.49,0.14,2435.91,43.39,Televendas,Pix,5,Devolvido
+PED00092,2024-07-16,C001,Ana Souza,São Paulo,SP,Mochila Samsonite 30L,Moda,3,465.24,0.11,1242.19,40.49,App Mobile,Cartão de Débito,12,Em trânsito
+PED00093,2024-08-13,C003,Carla Mendes,Belo Horizonte,MG,Smartphone Samsung Galaxy A54,Eletrônicos,5,2072.45,0.05,9844.14,5.01,Televendas,Cartão de Crédito,3,Devolvido
+PED00094,2024-11-15,C007,Gabriela Nunes,Recife,PE,Tablet Lenovo M10,Eletrônicos,2,1041.58,0.12,1833.18,13.22,Site,Boleto,13,Cancelado
+PED00095,2024-10-04,C007,Gabriela Nunes,Recife,PE,Cafeteira Nespresso Essenza,Eletrodomésticos,3,703.68,0.13,1836.6,24.35,Site,Pix,2,Devolvido
+PED00096,2024-02-21,C004,Diego Ferreira,Curitiba,PR,Mesa de Escritório L Kappesberg,Móveis,1,622.92,0.01,616.69,31.62,Marketplace,Cartão de Crédito,9,Entregue
+PED00097,2024-09-28,C006,Felipe Costa,Salvador,BA,Smartphone Samsung Galaxy A54,Eletrônicos,1,1753.43,0.06,1648.22,7.26,App Mobile,Pix,8,Devolvido
+PED00098,2024-10-25,C002,Bruno Lima,Rio de Janeiro,RJ,Mouse Logitech MX Master 3,Periféricos,5,533.75,0.09,2428.56,12.02,Televendas,Boleto,4,Entregue
+PED00099,2024-10-06,C005,Elisa Ramos,Porto Alegre,RS,Livro Python para Dados,Livros,1,96.62,0.07,89.86,14.35,Televendas,Boleto,4,Entregue
+PED00100,2024-07-15,C005,Elisa Ramos,Porto Alegre,RS,Air Fryer Philips Walita,Eletrodomésticos,4,613.44,0.07,2282.0,15.08,Site,Pix,15,Cancelado
+PED00101,2024-12-03,C010,João Pedro Silva,Brasília,DF,Calça Jeans Levi's 501,Moda,3,298.01,0.15,759.93,14.73,Site,Cartão de Crédito,8,Entregue
+PED00102,2024-04-27,C012,Marcelo Torres,Manaus,AM,Aspirador Robô iRobot Roomba,Eletrodomésticos,4,2327.0,0.14,8004.88,38.71,App Mobile,Pix,11,Entregue
+PED00103,2024-06-07,C005,Elisa Ramos,Porto Alegre,RS,Aspirador Robô iRobot Roomba,Eletrodomésticos,2,2214.53,0.14,3808.99,32.25,Site,Boleto,14,Cancelado
+PED00104,2024-10-03,C002,Bruno Lima,Rio de Janeiro,RJ,Tablet Lenovo M10,Eletrônicos,3,1117.08,0.06,3150.17,10.02,Marketplace,Pix,7,Devolvido
+PED00105,2024-02-28,C015,Priscila Rocha,Belém,PA,Cadeira Gamer ThunderX3,Móveis,4,2073.42,0.04,7961.93,43.43,App Mobile,Pix,9,Entregue
+PED00106,2024-10-01,C014,Otávio Gomes,Vitória,ES,Calça Jeans Levi's 501,Moda,5,282.34,0.12,1242.3,0.69,Marketplace,Boleto,3,Cancelado
+PED00107,2024-10-14,C007,Gabriela Nunes,Recife,PE,Air Fryer Philips Walita,Eletrodomésticos,3,526.16,0.04,1515.34,1.25,App Mobile,Cartão de Crédito,7,Devolvido
+PED00108,2024-01-20,C015,Priscila Rocha,Belém,PA,Livro Python para Dados,Livros,3,91.01,0.02,267.57,2.26,Site,Cartão de Crédito,6,Cancelado
+PED00109,2024-12-22,C015,Priscila Rocha,Belém,PA,Monitor LG 27 Full HD,Periféricos,5,1237.39,0.07,5753.86,33.46,App Mobile,Cartão de Débito,10,Cancelado
+PED00110,2024-12-19,C014,Otávio Gomes,Vitória,ES,Smart TV LG 50 4K,Eletrônicos,4,2809.95,0.14,9666.23,13.96,Televendas,Cartão de Débito,7,Entregue
+PED00111,2024-11-26,C014,Otávio Gomes,Vitória,ES,Monitor LG 27 Full HD,Periféricos,3,1224.69,0.1,3306.66,27.17,Televendas,Boleto,7,Entregue
+PED00112,2024-01-11,C002,Bruno Lima,Rio de Janeiro,RJ,Teclado Mecânico Redragon,Periféricos,4,287.19,0.03,1114.3,31.91,App Mobile,Pix,2,Entregue
+PED00113,2024-04-29,C004,Diego Ferreira,Curitiba,PR,Air Fryer Philips Walita,Eletrodomésticos,1,634.37,0.08,583.62,29.26,Site,Boleto,7,Entregue
+PED00114,2024-01-14,C003,Carla Mendes,Belo Horizonte,MG,Tablet Lenovo M10,Eletrônicos,5,1094.28,0.03,5307.26,32.99,Marketplace,Pix,4,Entregue
+PED00115,2024-09-26,C006,Felipe Costa,Salvador,BA,Air Fryer Philips Walita,Eletrodomésticos,1,536.05,0.01,530.69,37.01,Site,Cartão de Débito,3,Em trânsito
+PED00116,2024-11-10,C013,Natália Barbosa,Florianópolis,SC,Livro Python para Dados,Livros,3,87.95,0.02,258.57,25.14,Marketplace,Cartão de Débito,2,Em trânsito
+PED00117,2024-12-30,C001,Ana Souza,São Paulo,SP,Notebook Dell Inspiron 15,Eletrônicos,4,3503.92,0.06,13174.74,5.39,Site,Boleto,9,Entregue
+PED00118,2024-12-30,C003,Carla Mendes,Belo Horizonte,MG,Aspirador Robô iRobot Roomba,Eletrodomésticos,1,1938.52,0.09,1764.05,29.21,Marketplace,Cartão de Débito,7,Cancelado
+PED00119,2024-11-29,C010,João Pedro Silva,Brasília,DF,Livro SQL para Iniciantes,Livros,4,69.9,0.11,248.84,42.55,App Mobile,Cartão de Débito,14,Devolvido
+PED00120,2024-02-18,C015,Priscila Rocha,Belém,PA,Livro Python para Dados,Livros,2,85.72,0.12,150.87,19.9,Marketplace,Boleto,7,Cancelado
+PED00121,2024-02-19,C003,Carla Mendes,Belo Horizonte,MG,Camiseta Básica Hering,Moda,4,51.92,0.12,182.76,4.65,Marketplace,Pix,13,Em trânsito
+PED00122,2024-07-29,C001,Ana Souza,São Paulo,SP,Cafeteira Nespresso Essenza,Eletrodomésticos,5,761.32,0.08,3502.07,33.43,Televendas,Cartão de Crédito,7,Em trânsito
+PED00123,2024-12-02,C010,João Pedro Silva,Brasília,DF,Mesa de Escritório L Kappesberg,Móveis,3,609.55,0.09,1664.07,10.62,Site,Boleto,9,Entregue
+PED00124,2024-10-14,C006,Felipe Costa,Salvador,BA,Cafeteira Nespresso Essenza,Eletrodomésticos,1,727.42,0.09,661.95,40.28,Site,Boleto,14,Devolvido
+PED00125,2024-01-04,C003,Carla Mendes,Belo Horizonte,MG,Notebook Dell Inspiron 15,Eletrônicos,3,3384.62,0.05,9646.17,16.96,Televendas,Cartão de Crédito,4,Entregue
+PED00126,2024-08-20,C012,Marcelo Torres,Manaus,AM,Tablet Lenovo M10,Eletrônicos,1,1046.65,0.08,962.92,18.77,Marketplace,Boleto,7,Entregue
+PED00127,2024-11-12,C013,Natália Barbosa,Florianópolis,SC,Tênis Nike Air Max,Moda,5,599.33,0.13,2607.09,7.76,Site,Boleto,2,Em trânsito
+PED00128,2024-09-19,C011,Larissa Oliveira,Goiânia,GO,Livro Python para Dados,Livros,4,87.33,0.07,324.87,13.63,Televendas,Cartão de Crédito,3,Entregue
+PED00129,2024-07-21,C011,Larissa Oliveira,Goiânia,GO,Mesa de Escritório L Kappesberg,Móveis,5,631.48,0.1,2841.66,2.27,Site,Pix,11,Entregue
+PED00130,2024-09-11,C004,Diego Ferreira,Curitiba,PR,Mesa de Escritório L Kappesberg,Móveis,2,676.57,0.04,1299.01,5.99,App Mobile,Pix,13,Cancelado
+PED00131,2024-02-06,C009,Isabela Martins,Campinas,SP,Calça Jeans Levi's 501,Moda,2,292.42,0.13,508.81,40.23,Site,Cartão de Débito,8,Em trânsito
+PED00132,2024-12-29,C008,Henrique Alves,Fortaleza,CE,Notebook Dell Inspiron 15,Eletrônicos,1,3516.13,0.09,3199.68,28.61,Marketplace,Cartão de Crédito,12,Cancelado
+PED00133,2024-12-19,C001,Ana Souza,São Paulo,SP,Calça Jeans Levi's 501,Moda,3,267.8,0.14,690.92,22.96,Televendas,Cartão de Crédito,7,Entregue
+PED00134,2024-06-22,C007,Gabriela Nunes,Recife,PE,Monitor LG 27 Full HD,Periféricos,5,1330.06,0.01,6583.8,43.44,App Mobile,Cartão de Crédito,5,Entregue
+PED00135,2024-06-28,C011,Larissa Oliveira,Goiânia,GO,Livro SQL para Iniciantes,Livros,1,78.51,0.03,76.15,38.73,App Mobile,Pix,13,Em trânsito
+PED00136,2024-12-01,C003,Carla Mendes,Belo Horizonte,MG,Smart TV LG 50 4K,Eletrônicos,3,2517.19,0.09,6871.93,37.93,Televendas,Cartão de Débito,3,Entregue
+PED00137,2024-11-21,C013,Natália Barbosa,Florianópolis,SC,Air Fryer Philips Walita,Eletrodomésticos,5,577.24,0.14,2482.13,28.17,Marketplace,Pix,11,Entregue
+PED00138,2024-01-29,C002,Bruno Lima,Rio de Janeiro,RJ,Livro Python para Dados,Livros,4,86.35,0.05,328.13,13.71,Site,Boleto,7,Devolvido
+PED00139,2024-02-16,C008,Henrique Alves,Fortaleza,CE,Livro Python para Dados,Livros,1,77.69,0.12,68.37,3.83,Televendas,Cartão de Débito,11,Devolvido
+PED00140,2024-06-13,C009,Isabela Martins,Campinas,SP,Air Fryer Philips Walita,Eletrodomésticos,1,577.36,0.12,508.08,32.53,App Mobile,Cartão de Crédito,11,Cancelado
+PED00141,2024-01-21,C002,Bruno Lima,Rio de Janeiro,RJ,Livro Python para Dados,Livros,3,98.49,0.01,292.52,32.24,Televendas,Cartão de Débito,5,Em trânsito
+PED00142,2024-07-28,C009,Isabela Martins,Campinas,SP,Livro SQL para Iniciantes,Livros,5,71.09,0.06,334.12,14.12,Site,Boleto,14,Entregue
+PED00143,2024-12-02,C006,Felipe Costa,Salvador,BA,Fone Bluetooth JBL Tune 510,Eletrônicos,1,247.27,0.06,232.43,12.57,Marketplace,Cartão de Crédito,11,Entregue
+PED00144,2024-12-05,C011,Larissa Oliveira,Goiânia,GO,Air Fryer Philips Walita,Eletrodomésticos,2,647.4,0.05,1230.06,32.74,Site,Boleto,8,Entregue
+PED00145,2024-12-16,C007,Gabriela Nunes,Recife,PE,Cafeteira Nespresso Essenza,Eletrodomésticos,3,736.25,0.1,1987.88,41.37,Televendas,Boleto,10,Entregue
+PED00146,2024-09-05,C006,Felipe Costa,Salvador,BA,Notebook Dell Inspiron 15,Eletrônicos,3,2953.63,0.03,8595.06,47.29,App Mobile,Pix,5,Entregue
+PED00147,2024-09-26,C005,Elisa Ramos,Porto Alegre,RS,Fone Bluetooth JBL Tune 510,Eletrônicos,1,244.13,0.08,224.6,36.86,Marketplace,Pix,2,Em trânsito
+PED00148,2024-03-25,C007,Gabriela Nunes,Recife,PE,Aspirador Robô iRobot Roomba,Eletrodomésticos,2,1958.35,0.12,3446.7,38.48,Site,Cartão de Débito,13,Cancelado
+PED00149,2024-08-17,C011,Larissa Oliveira,Goiânia,GO,Camiseta Básica Hering,Moda,2,65.43,0.09,119.08,37.54,App Mobile,Boleto,5,Devolvido
+PED00150,2024-08-24,C015,Priscila Rocha,Belém,PA,Livro Clean Code,Livros,2,103.52,0.14,178.05,49.12,Televendas,Cartão de Débito,14,Entregue
+PED00151,2024-11-24,C014,Otávio Gomes,Vitória,ES,Mouse Logitech MX Master 3,Periféricos,2,525.05,0.02,1029.1,12.48,Site,Cartão de Crédito,9,Entregue
+PED00152,2024-08-11,C002,Bruno Lima,Rio de Janeiro,RJ,Mesa de Escritório L Kappesberg,Móveis,2,596.74,0.14,1026.39,7.35,Televendas,Boleto,3,Entregue
+PED00153,2024-02-11,C007,Gabriela Nunes,Recife,PE,Notebook Dell Inspiron 15,Eletrônicos,1,3131.98,0.06,2944.06,19.27,Site,Boleto,7,Entregue
+PED00154,2024-08-29,C014,Otávio Gomes,Vitória,ES,Smart TV LG 50 4K,Eletrônicos,3,2932.92,0.02,8622.78,14.32,Televendas,Cartão de Débito,13,Entregue
+PED00155,2024-11-07,C001,Ana Souza,São Paulo,SP,Aspirador Robô iRobot Roomba,Eletrodomésticos,1,1879.6,0.03,1823.21,7.46,Site,Boleto,10,Cancelado
+PED00156,2024-08-22,C005,Elisa Ramos,Porto Alegre,RS,Monitor LG 27 Full HD,Periféricos,1,1206.63,0.06,1134.23,39.62,Televendas,Cartão de Crédito,3,Entregue
+PED00157,2024-06-29,C010,João Pedro Silva,Brasília,DF,Livro SQL para Iniciantes,Livros,2,82.27,0.04,157.96,0.08,Televendas,Pix,5,Devolvido
+PED00158,2024-09-16,C009,Isabela Martins,Campinas,SP,Fone Bluetooth JBL Tune 510,Eletrônicos,3,216.64,0.08,597.93,25.32,Televendas,Cartão de Débito,10,Entregue
+PED00159,2024-02-04,C011,Larissa Oliveira,Goiânia,GO,Smartphone Samsung Galaxy A54,Eletrônicos,4,2079.9,0.04,7986.82,0.81,Site,Boleto,7,Entregue
+PED00160,2024-12-16,C001,Ana Souza,São Paulo,SP,Tablet Lenovo M10,Eletrônicos,3,1182.82,0.12,3122.64,8.74,Televendas,Pix,9,Em trânsito
+PED00161,2024-01-22,C002,Bruno Lima,Rio de Janeiro,RJ,Tablet Lenovo M10,Eletrônicos,4,1030.24,0.03,3997.33,39.48,Televendas,Cartão de Débito,7,Entregue
+PED00162,2024-12-01,C001,Ana Souza,São Paulo,SP,Cadeira Gamer ThunderX3,Móveis,2,1749.98,0.13,3044.97,2.39,Site,Boleto,7,Entregue
+PED00163,2024-04-05,C015,Priscila Rocha,Belém,PA,Mochila Samsonite 30L,Moda,4,465.09,0.13,1618.51,19.29,Televendas,Boleto,9,Em trânsito
+PED00164,2024-04-02,C005,Elisa Ramos,Porto Alegre,RS,Livro SQL para Iniciantes,Livros,1,82.44,0.01,81.62,30.06,Marketplace,Cartão de Crédito,10,Entregue
+PED00165,2024-12-19,C006,Felipe Costa,Salvador,BA,Fone Bluetooth JBL Tune 510,Eletrônicos,3,231.56,0.09,632.16,21.26,Televendas,Cartão de Crédito,9,Entregue
+PED00166,2024-02-08,C010,João Pedro Silva,Brasília,DF,Camiseta Básica Hering,Moda,4,55.03,0.15,187.1,47.3,Televendas,Boleto,12,Em trânsito
+PED00167,2024-08-12,C013,Natália Barbosa,Florianópolis,SC,Livro SQL para Iniciantes,Livros,2,86.95,0.02,170.42,30.32,Site,Pix,2,Entregue
+PED00168,2024-08-18,C006,Felipe Costa,Salvador,BA,Camiseta Básica Hering,Moda,4,65.13,0.0,260.52,7.66,Televendas,Cartão de Crédito,7,Entregue
+PED00169,2024-02-28,C003,Carla Mendes,Belo Horizonte,MG,Air Fryer Philips Walita,Eletrodomésticos,5,564.95,0.05,2683.51,13.91,App Mobile,Cartão de Débito,2,Em trânsito
+PED00170,2024-04-19,C007,Gabriela Nunes,Recife,PE,Livro SQL para Iniciantes,Livros,5,70.27,0.12,309.19,35.13,Televendas,Pix,11,Entregue
+PED00171,2024-02-14,C003,Carla Mendes,Belo Horizonte,MG,Smart TV LG 50 4K,Eletrônicos,1,2695.47,0.13,2345.06,22.21,Marketplace,Boleto,14,Em trânsito
+PED00172,2024-12-29,C009,Isabela Martins,Campinas,SP,Fone Bluetooth JBL Tune 510,Eletrônicos,5,230.56,0.04,1106.69,7.86,App Mobile,Boleto,13,Em trânsito
+PED00173,2024-09-09,C004,Diego Ferreira,Curitiba,PR,Livro SQL para Iniciantes,Livros,1,87.59,0.12,77.08,11.81,Marketplace,Cartão de Débito,2,Entregue
+PED00174,2024-09-02,C003,Carla Mendes,Belo Horizonte,MG,Cafeteira Nespresso Essenza,Eletrodomésticos,5,748.67,0.01,3705.92,19.87,Televendas,Cartão de Crédito,10,Cancelado
+PED00175,2024-10-09,C006,Felipe Costa,Salvador,BA,Tablet Lenovo M10,Eletrônicos,1,1154.03,0.1,1038.63,17.19,App Mobile,Pix,12,Devolvido
+PED00176,2024-03-23,C009,Isabela Martins,Campinas,SP,Mochila Samsonite 30L,Moda,1,474.97,0.08,436.97,15.18,App Mobile,Boleto,7,Em trânsito
+PED00177,2024-10-09,C015,Priscila Rocha,Belém,PA,Livro SQL para Iniciantes,Livros,3,84.81,0.04,244.25,31.69,Marketplace,Cartão de Crédito,6,Entregue
+PED00178,2024-11-15,C011,Larissa Oliveira,Goiânia,GO,Livro SQL para Iniciantes,Livros,2,79.74,0.09,145.13,8.54,Marketplace,Cartão de Crédito,13,Devolvido
+PED00179,2024-04-17,C002,Bruno Lima,Rio de Janeiro,RJ,Notebook Dell Inspiron 15,Eletrônicos,1,3587.44,0.12,3156.95,13.21,Televendas,Cartão de Crédito,14,Devolvido
+PED00180,2024-12-16,C015,Priscila Rocha,Belém,PA,Livro Clean Code,Livros,5,101.37,0.14,435.89,24.1,Televendas,Cartão de Crédito,8,Entregue
+PED00181,2024-03-14,C003,Carla Mendes,Belo Horizonte,MG,Smartphone Samsung Galaxy A54,Eletrônicos,4,1811.47,0.07,6738.67,16.98,Marketplace,Boleto,7,Em trânsito
+PED00182,2024-03-03,C003,Carla Mendes,Belo Horizonte,MG,Calça Jeans Levi's 501,Moda,3,293.53,0.02,862.98,12.06,App Mobile,Pix,6,Cancelado
+PED00183,2024-03-22,C001,Ana Souza,São Paulo,SP,Smart TV LG 50 4K,Eletrônicos,3,3040.68,0.13,7936.17,20.86,Marketplace,Pix,15,Entregue
+PED00184,2024-02-16,C008,Henrique Alves,Fortaleza,CE,Mouse Logitech MX Master 3,Periféricos,5,483.26,0.13,2102.18,24.82,Televendas,Pix,8,Devolvido
+PED00185,2024-11-30,C010,João Pedro Silva,Brasília,DF,Teclado Mecânico Redragon,Periféricos,3,283.65,0.04,816.91,29.82,Marketplace,Cartão de Crédito,12,Cancelado
+PED00186,2024-07-06,C007,Gabriela Nunes,Recife,PE,Smart TV LG 50 4K,Eletrônicos,2,2996.65,0.11,5334.04,38.12,Site,Pix,2,Cancelado
+PED00187,2024-05-23,C009,Isabela Martins,Campinas,SP,Camiseta Básica Hering,Moda,3,52.02,0.08,143.58,38.14,Site,Pix,15,Devolvido
+PED00188,2024-03-14,C007,Gabriela Nunes,Recife,PE,Smart TV LG 50 4K,Eletrônicos,3,2935.38,0.05,8365.83,46.85,Televendas,Cartão de Crédito,5,Devolvido
+PED00189,2024-03-17,C001,Ana Souza,São Paulo,SP,Smartphone Samsung Galaxy A54,Eletrônicos,2,1952.93,0.12,3437.16,25.91,App Mobile,Boleto,11,Devolvido
+PED00190,2024-10-30,C006,Felipe Costa,Salvador,BA,Aspirador Robô iRobot Roomba,Eletrodomésticos,2,2085.18,0.09,3795.03,42.05,Televendas,Boleto,7,Devolvido
+PED00191,2024-10-25,C014,Otávio Gomes,Vitória,ES,Livro Clean Code,Livros,1,103.54,0.1,93.19,48.9,Site,Cartão de Débito,6,Em trânsito
+PED00192,2024-03-28,C011,Larissa Oliveira,Goiânia,GO,Cadeira Gamer ThunderX3,Móveis,5,1888.38,0.11,8403.29,29.12,Televendas,Pix,10,Em trânsito
+PED00193,2024-06-09,C001,Ana Souza,São Paulo,SP,Monitor LG 27 Full HD,Periféricos,5,1521.76,0.02,7456.62,0.94,Televendas,Pix,8,Entregue
+PED00194,2024-02-01,C009,Isabela Martins,Campinas,SP,Mochila Samsonite 30L,Moda,5,484.98,0.13,2109.66,36.72,App Mobile,Boleto,13,Entregue
+PED00195,2024-06-24,C009,Isabela Martins,Campinas,SP,Livro Clean Code,Livros,4,102.04,0.03,395.92,45.51,Marketplace,Cartão de Débito,10,Entregue
+PED00196,2024-06-01,C004,Diego Ferreira,Curitiba,PR,Teclado Mecânico Redragon,Periféricos,3,325.55,0.03,947.35,48.55,App Mobile,Cartão de Débito,14,Entregue
+PED00197,2024-05-27,C008,Henrique Alves,Fortaleza,CE,Tênis Nike Air Max,Moda,3,593.97,0.14,1532.44,36.01,Televendas,Cartão de Débito,3,Devolvido
+PED00198,2024-06-26,C013,Natália Barbosa,Florianópolis,SC,Camiseta Básica Hering,Moda,2,55.26,0.04,106.1,35.64,Marketplace,Cartão de Débito,9,Em trânsito
+PED00199,2024-02-25,C004,Diego Ferreira,Curitiba,PR,Teclado Mecânico Redragon,Periféricos,5,301.95,0.08,1388.97,13.55,App Mobile,Pix,11,Em trânsito
+PED00200,2024-06-18,C011,Larissa Oliveira,Goiânia,GO,Smartphone Samsung Galaxy A54,Eletrônicos,5,1721.29,0.03,8348.26,5.0,Site,Pix,13,Cancelado
+PED00201,2024-09-01,C009,Isabela Martins,Campinas,SP,Notebook Dell Inspiron 15,Eletrônicos,2,3140.6,0.14,5401.83,43.83,Marketplace,Boleto,12,Entregue
+PED00202,2024-09-30,C011,Larissa Oliveira,Goiânia,GO,Mesa de Escritório L Kappesberg,Móveis,1,699.93,0.01,692.93,28.65,Site,Pix,13,Em trânsito
+PED00203,2024-09-10,C015,Priscila Rocha,Belém,PA,Mochila Samsonite 30L,Moda,2,486.48,0.01,963.23,41.73,Marketplace,Cartão de Crédito,4,Em trânsito
+PED00204,2024-08-20,C005,Elisa Ramos,Porto Alegre,RS,Notebook Dell Inspiron 15,Eletrônicos,5,3302.2,0.14,14199.46,16.72,Televendas,Pix,12,Devolvido
+PED00205,2024-08-22,C008,Henrique Alves,Fortaleza,CE,Livro SQL para Iniciantes,Livros,3,71.77,0.02,211.0,8.11,App Mobile,Cartão de Crédito,12,Entregue
+PED00206,2024-11-23,C013,Natália Barbosa,Florianópolis,SC,Tênis Nike Air Max,Moda,3,595.07,0.11,1588.84,8.76,Marketplace,Cartão de Crédito,8,Cancelado
+PED00207,2024-05-07,C011,Larissa Oliveira,Goiânia,GO,Calça Jeans Levi's 501,Moda,1,268.77,0.02,263.39,16.15,Televendas,Pix,2,Entregue
+PED00208,2024-01-06,C013,Natália Barbosa,Florianópolis,SC,Livro Python para Dados,Livros,3,97.86,0.05,278.9,36.07,Marketplace,Pix,6,Em trânsito
+PED00209,2024-12-26,C011,Larissa Oliveira,Goiânia,GO,Smartphone Samsung Galaxy A54,Eletrônicos,1,1835.1,0.02,1798.4,34.24,Site,Boleto,14,Entregue
+PED00210,2024-11-06,C010,João Pedro Silva,Brasília,DF,Camiseta Básica Hering,Moda,2,54.2,0.02,106.23,7.64,Televendas,Pix,7,Cancelado
+PED00211,2024-12-26,C011,Larissa Oliveira,Goiânia,GO,Monitor LG 27 Full HD,Periféricos,5,1495.49,0.01,7402.68,22.29,Site,Cartão de Crédito,7,Entregue
+PED00212,2024-09-23,C015,Priscila Rocha,Belém,PA,Cafeteira Nespresso Essenza,Eletrodomésticos,5,629.48,0.08,2895.61,8.21,App Mobile,Cartão de Débito,9,Entregue
+PED00213,2024-07-31,C015,Priscila Rocha,Belém,PA,Fone Bluetooth JBL Tune 510,Eletrônicos,5,240.25,0.01,1189.24,6.58,Site,Cartão de Débito,9,Devolvido
+PED00214,2024-10-23,C012,Marcelo Torres,Manaus,AM,Mesa de Escritório L Kappesberg,Móveis,1,616.75,0.12,542.74,37.22,Televendas,Boleto,3,Entregue
+PED00215,2024-01-17,C009,Isabela Martins,Campinas,SP,Fone Bluetooth JBL Tune 510,Eletrônicos,1,270.8,0.01,268.09,46.6,App Mobile,Pix,6,Cancelado
+PED00216,2024-02-11,C006,Felipe Costa,Salvador,BA,Mochila Samsonite 30L,Moda,4,432.0,0.14,1486.08,18.84,App Mobile,Boleto,12,Em trânsito
+PED00217,2024-01-02,C003,Carla Mendes,Belo Horizonte,MG,Smart TV LG 50 4K,Eletrônicos,5,2654.19,0.02,13005.53,48.84,Marketplace,Cartão de Débito,14,Entregue
+PED00218,2024-03-20,C007,Gabriela Nunes,Recife,PE,Cafeteira Nespresso Essenza,Eletrodomésticos,5,660.43,0.03,3203.09,22.99,Site,Cartão de Crédito,6,Entregue
+PED00219,2024-08-16,C010,João Pedro Silva,Brasília,DF,Mochila Samsonite 30L,Moda,1,408.66,0.01,404.57,29.64,Site,Pix,11,Em trânsito
+PED00220,2024-01-29,C007,Gabriela Nunes,Recife,PE,Smartphone Samsung Galaxy A54,Eletrônicos,4,1725.4,0.03,6694.55,43.1,Marketplace,Pix,4,Devolvido
+PED00221,2024-06-03,C006,Felipe Costa,Salvador,BA,Air Fryer Philips Walita,Eletrodomésticos,5,599.59,0.1,2698.16,16.0,App Mobile,Cartão de Débito,4,Em trânsito
+PED00222,2024-03-30,C005,Elisa Ramos,Porto Alegre,RS,Mesa de Escritório L Kappesberg,Móveis,1,642.87,0.09,585.01,36.69,Televendas,Cartão de Débito,12,Em trânsito
+PED00223,2024-03-17,C006,Felipe Costa,Salvador,BA,Smartphone Samsung Galaxy A54,Eletrônicos,4,1987.21,0.05,7551.4,20.77,App Mobile,Cartão de Débito,6,Cancelado
+PED00224,2024-01-30,C014,Otávio Gomes,Vitória,ES,Monitor LG 27 Full HD,Periféricos,2,1295.17,0.11,2305.4,40.21,Televendas,Pix,10,Cancelado
+PED00225,2024-07-08,C004,Diego Ferreira,Curitiba,PR,Calça Jeans Levi's 501,Moda,3,270.16,0.1,729.43,46.02,App Mobile,Cartão de Crédito,3,Devolvido
+PED00226,2024-10-27,C007,Gabriela Nunes,Recife,PE,Cadeira Gamer ThunderX3,Móveis,5,1900.39,0.13,8266.7,9.39,App Mobile,Cartão de Débito,13,Em trânsito
+PED00227,2024-04-07,C014,Otávio Gomes,Vitória,ES,Teclado Mecânico Redragon,Periféricos,3,304.59,0.14,785.84,10.57,Televendas,Pix,13,Entregue
+PED00228,2024-05-24,C012,Marcelo Torres,Manaus,AM,Aspirador Robô iRobot Roomba,Eletrodomésticos,2,2087.2,0.04,4007.42,16.05,Marketplace,Boleto,8,Cancelado
+PED00229,2024-08-28,C006,Felipe Costa,Salvador,BA,Cadeira Gamer ThunderX3,Móveis,5,2033.26,0.07,9454.66,40.06,App Mobile,Boleto,14,Entregue
+PED00230,2024-05-13,C007,Gabriela Nunes,Recife,PE,Tênis Nike Air Max,Moda,1,594.28,0.03,576.45,7.28,Televendas,Boleto,10,Devolvido
+PED00231,2024-10-08,C004,Diego Ferreira,Curitiba,PR,Tablet Lenovo M10,Eletrônicos,3,1088.1,0.09,2970.51,12.26,Marketplace,Boleto,12,Em trânsito
+PED00232,2024-03-12,C012,Marcelo Torres,Manaus,AM,Livro Clean Code,Livros,4,106.08,0.11,377.64,17.57,Televendas,Pix,13,Devolvido
+PED00233,2024-12-08,C011,Larissa Oliveira,Goiânia,GO,Cafeteira Nespresso Essenza,Eletrodomésticos,1,685.71,0.13,596.57,3.71,Televendas,Pix,2,Entregue
+PED00234,2024-11-12,C002,Bruno Lima,Rio de Janeiro,RJ,Monitor LG 27 Full HD,Periféricos,2,1193.11,0.08,2195.32,18.62,Televendas,Cartão de Débito,12,Em trânsito
+PED00235,2024-05-20,C001,Ana Souza,São Paulo,SP,Notebook Dell Inspiron 15,Eletrônicos,5,3260.01,0.0,16300.05,26.42,Site,Cartão de Débito,10,Entregue
+PED00236,2024-05-09,C002,Bruno Lima,Rio de Janeiro,RJ,Mouse Logitech MX Master 3,Periféricos,1,490.45,0.04,470.83,30.93,Marketplace,Cartão de Débito,15,Entregue
+PED00237,2024-06-02,C006,Felipe Costa,Salvador,BA,Fone Bluetooth JBL Tune 510,Eletrônicos,4,241.09,0.04,925.79,34.79,Site,Cartão de Crédito,12,Entregue
+PED00238,2024-03-28,C007,Gabriela Nunes,Recife,PE,Calça Jeans Levi's 501,Moda,4,296.35,0.01,1173.55,0.47,Televendas,Boleto,3,Cancelado
+PED00239,2024-12-20,C014,Otávio Gomes,Vitória,ES,Air Fryer Philips Walita,Eletrodomésticos,1,644.11,0.14,553.93,11.47,Marketplace,Cartão de Crédito,11,Cancelado
+PED00240,2024-06-10,C011,Larissa Oliveira,Goiânia,GO,Fone Bluetooth JBL Tune 510,Eletrônicos,3,268.6,0.08,741.34,1.64,App Mobile,Cartão de Débito,2,Entregue
+PED00241,2024-12-12,C005,Elisa Ramos,Porto Alegre,RS,Fone Bluetooth JBL Tune 510,Eletrônicos,2,247.65,0.09,450.72,42.39,Televendas,Pix,10,Entregue
+PED00242,2024-06-23,C009,Isabela Martins,Campinas,SP,Fone Bluetooth JBL Tune 510,Eletrônicos,3,215.77,0.07,602.0,41.85,Televendas,Boleto,11,Devolvido
+PED00243,2024-10-10,C011,Larissa Oliveira,Goiânia,GO,Notebook Dell Inspiron 15,Eletrônicos,3,3451.32,0.07,9629.18,11.38,App Mobile,Cartão de Débito,8,Cancelado
+PED00244,2024-05-17,C013,Natália Barbosa,Florianópolis,SC,Fone Bluetooth JBL Tune 510,Eletrônicos,5,230.87,0.04,1108.18,3.67,App Mobile,Cartão de Débito,4,Cancelado
+PED00245,2024-05-18,C006,Felipe Costa,Salvador,BA,Tênis Nike Air Max,Moda,1,523.64,0.14,450.33,22.19,Site,Pix,3,Entregue
+PED00246,2024-06-30,C008,Henrique Alves,Fortaleza,CE,Mochila Samsonite 30L,Moda,5,443.92,0.06,2086.42,1.31,Marketplace,Cartão de Débito,10,Entregue
+PED00247,2024-05-04,C005,Elisa Ramos,Porto Alegre,RS,Notebook Dell Inspiron 15,Eletrônicos,4,3124.84,0.01,12374.37,44.97,App Mobile,Cartão de Débito,11,Devolvido
+PED00248,2024-08-10,C003,Carla Mendes,Belo Horizonte,MG,Mouse Logitech MX Master 3,Periféricos,3,462.55,0.07,1290.51,3.16,Marketplace,Cartão de Débito,6,Cancelado
+PED00249,2024-11-11,C006,Felipe Costa,Salvador,BA,Fone Bluetooth JBL Tune 510,Eletrônicos,3,271.41,0.11,724.66,24.74,Site,Pix,5,Cancelado
+PED00250,2024-06-17,C001,Ana Souza,São Paulo,SP,Mesa de Escritório L Kappesberg,Móveis,4,606.39,0.09,2207.26,40.12,Televendas,Pix,9,Entregue
+PED00251,2024-07-22,C006,Felipe Costa,Salvador,BA,Mesa de Escritório L Kappesberg,Móveis,5,706.32,0.03,3425.65,15.68,Televendas,Pix,7,Entregue
+PED00252,2024-10-15,C007,Gabriela Nunes,Recife,PE,Tênis Nike Air Max,Moda,3,632.37,0.06,1783.28,5.68,App Mobile,Cartão de Crédito,5,Devolvido
+PED00253,2024-07-28,C012,Marcelo Torres,Manaus,AM,Livro Python para Dados,Livros,2,86.27,0.04,165.64,34.57,App Mobile,Boleto,12,Cancelado
+PED00254,2024-11-02,C005,Elisa Ramos,Porto Alegre,RS,Monitor LG 27 Full HD,Periféricos,2,1440.23,0.12,2534.8,3.69,Televendas,Cartão de Débito,9,Devolvido
+PED00255,2024-02-13,C001,Ana Souza,São Paulo,SP,Cafeteira Nespresso Essenza,Eletrodomésticos,3,716.76,0.12,1892.25,29.63,Marketplace,Pix,3,Entregue
+PED00256,2024-06-18,C001,Ana Souza,São Paulo,SP,Aspirador Robô iRobot Roomba,Eletrodomésticos,5,2409.89,0.1,10844.5,19.94,Site,Cartão de Crédito,14,Cancelado
+PED00257,2024-10-21,C005,Elisa Ramos,Porto Alegre,RS,Smart TV LG 50 4K,Eletrônicos,2,2736.5,0.08,5035.16,28.97,Marketplace,Cartão de Débito,5,Cancelado
+PED00258,2024-09-04,C013,Natália Barbosa,Florianópolis,SC,Livro Python para Dados,Livros,5,91.93,0.02,450.46,49.79,Televendas,Cartão de Crédito,3,Entregue
+PED00259,2024-09-23,C014,Otávio Gomes,Vitória,ES,Smart TV LG 50 4K,Eletrônicos,2,2622.89,0.05,4983.49,39.14,Televendas,Cartão de Crédito,9,Entregue
+PED00260,2024-02-28,C012,Marcelo Torres,Manaus,AM,Livro Python para Dados,Livros,4,83.58,0.05,317.6,40.43,Site,Pix,2,Entregue
+PED00261,2024-08-24,C009,Isabela Martins,Campinas,SP,Monitor LG 27 Full HD,Periféricos,2,1383.07,0.05,2627.83,21.28,App Mobile,Pix,5,Cancelado
+PED00262,2024-08-07,C007,Gabriela Nunes,Recife,PE,Mochila Samsonite 30L,Moda,1,464.42,0.13,404.05,22.43,App Mobile,Pix,8,Entregue
+PED00263,2024-07-06,C013,Natália Barbosa,Florianópolis,SC,Cadeira Gamer ThunderX3,Móveis,1,1888.25,0.12,1661.66,26.79,Televendas,Cartão de Crédito,7,Entregue
+PED00264,2024-11-08,C011,Larissa Oliveira,Goiânia,GO,Cadeira Gamer ThunderX3,Móveis,4,1864.68,0.1,6712.85,29.79,Site,Boleto,8,Devolvido
+PED00265,2024-06-01,C014,Otávio Gomes,Vitória,ES,Camiseta Básica Hering,Moda,4,60.16,0.12,211.76,35.23,Site,Pix,11,Devolvido
+PED00266,2024-09-18,C002,Bruno Lima,Rio de Janeiro,RJ,Tênis Nike Air Max,Moda,2,555.71,0.03,1078.08,34.6,App Mobile,Cartão de Débito,8,Cancelado
+PED00267,2024-03-29,C003,Carla Mendes,Belo Horizonte,MG,Mochila Samsonite 30L,Moda,4,452.99,0.1,1630.76,32.2,Televendas,Boleto,10,Entregue
+PED00268,2024-01-05,C003,Carla Mendes,Belo Horizonte,MG,Tablet Lenovo M10,Eletrônicos,3,1271.54,0.09,3471.3,43.19,App Mobile,Cartão de Débito,9,Entregue
+PED00269,2024-08-15,C009,Isabela Martins,Campinas,SP,Cafeteira Nespresso Essenza,Eletrodomésticos,4,665.65,0.07,2476.22,35.44,Site,Cartão de Crédito,9,Entregue
+PED00270,2024-08-22,C005,Elisa Ramos,Porto Alegre,RS,Monitor LG 27 Full HD,Periféricos,1,1286.11,0.08,1183.22,8.39,Televendas,Cartão de Crédito,11,Em trânsito
+PED00271,2024-01-22,C002,Bruno Lima,Rio de Janeiro,RJ,Air Fryer Philips Walita,Eletrodomésticos,3,626.16,0.12,1653.06,18.31,Televendas,Pix,14,Em trânsito
+PED00272,2024-06-27,C002,Bruno Lima,Rio de Janeiro,RJ,Mochila Samsonite 30L,Moda,2,415.07,0.15,705.62,22.44,Televendas,Cartão de Crédito,15,Entregue
+PED00273,2024-08-07,C004,Diego Ferreira,Curitiba,PR,Monitor LG 27 Full HD,Periféricos,5,1431.09,0.13,6225.24,30.45,App Mobile,Pix,4,Devolvido
+PED00274,2024-03-27,C013,Natália Barbosa,Florianópolis,SC,Teclado Mecânico Redragon,Periféricos,1,326.54,0.08,300.42,29.78,Marketplace,Boleto,7,Em trânsito
+PED00275,2024-07-29,C005,Elisa Ramos,Porto Alegre,RS,Air Fryer Philips Walita,Eletrodomésticos,5,657.71,0.1,2959.7,4.75,App Mobile,Pix,2,Entregue
+PED00276,2024-09-07,C003,Carla Mendes,Belo Horizonte,MG,Monitor LG 27 Full HD,Periféricos,3,1479.86,0.11,3951.23,33.74,Marketplace,Cartão de Débito,4,Devolvido
+PED00277,2024-09-20,C008,Henrique Alves,Fortaleza,CE,Calça Jeans Levi's 501,Moda,1,302.42,0.13,263.11,4.65,Marketplace,Cartão de Débito,13,Entregue
+PED00278,2024-08-22,C006,Felipe Costa,Salvador,BA,Livro Clean Code,Livros,5,93.48,0.12,411.31,36.56,Marketplace,Cartão de Crédito,12,Em trânsito
+PED00279,2024-06-14,C007,Gabriela Nunes,Recife,PE,Cafeteira Nespresso Essenza,Eletrodomésticos,2,763.33,0.12,1343.46,24.69,Marketplace,Pix,15,Entregue
+PED00280,2024-01-24,C014,Otávio Gomes,Vitória,ES,Air Fryer Philips Walita,Eletrodomésticos,4,628.14,0.13,2185.93,38.04,Televendas,Cartão de Crédito,3,Em trânsito
+PED00281,2024-04-13,C015,Priscila Rocha,Belém,PA,Smart TV LG 50 4K,Eletrônicos,2,2687.94,0.0,5375.88,47.81,Marketplace,Pix,13,Entregue
+PED00282,2024-03-25,C002,Bruno Lima,Rio de Janeiro,RJ,Cadeira Gamer ThunderX3,Móveis,3,1733.02,0.06,4887.12,45.1,Marketplace,Pix,2,Cancelado
+PED00283,2024-03-08,C011,Larissa Oliveira,Goiânia,GO,Mochila Samsonite 30L,Moda,1,460.64,0.0,460.64,23.79,Televendas,Cartão de Crédito,11,Entregue
+PED00284,2024-03-08,C012,Marcelo Torres,Manaus,AM,Notebook Dell Inspiron 15,Eletrônicos,3,3479.01,0.15,8871.48,21.07,App Mobile,Cartão de Débito,9,Entregue
+PED00285,2024-07-14,C012,Marcelo Torres,Manaus,AM,Fone Bluetooth JBL Tune 510,Eletrônicos,1,218.86,0.06,205.73,14.93,App Mobile,Cartão de Crédito,14,Entregue
+PED00286,2024-04-19,C010,João Pedro Silva,Brasília,DF,Livro SQL para Iniciantes,Livros,1,80.11,0.02,78.51,17.52,App Mobile,Cartão de Débito,12,Em trânsito
+PED00287,2024-03-04,C011,Larissa Oliveira,Goiânia,GO,Aspirador Robô iRobot Roomba,Eletrodomésticos,4,2341.91,0.01,9273.96,5.01,Televendas,Boleto,11,Em trânsito
+PED00288,2024-11-03,C006,Felipe Costa,Salvador,BA,Mochila Samsonite 30L,Moda,2,409.46,0.1,737.03,12.38,Marketplace,Cartão de Crédito,11,Em trânsito
+PED00289,2024-11-26,C004,Diego Ferreira,Curitiba,PR,Mesa de Escritório L Kappesberg,Móveis,5,651.03,0.03,3157.5,19.55,Televendas,Cartão de Débito,2,Entregue
+PED00290,2024-01-07,C004,Diego Ferreira,Curitiba,PR,Smart TV LG 50 4K,Eletrônicos,4,2825.65,0.01,11189.57,44.35,App Mobile,Cartão de Débito,7,Entregue
+PED00291,2024-02-07,C007,Gabriela Nunes,Recife,PE,Air Fryer Philips Walita,Eletrodomésticos,3,591.85,0.03,1722.28,23.5,Site,Cartão de Crédito,2,Devolvido
+PED00292,2024-05-26,C004,Diego Ferreira,Curitiba,PR,Cadeira Gamer ThunderX3,Móveis,1,2052.14,0.14,1764.84,19.86,Televendas,Cartão de Débito,12,Em trânsito
+PED00293,2024-02-10,C002,Bruno Lima,Rio de Janeiro,RJ,Calça Jeans Levi's 501,Moda,5,295.23,0.02,1446.63,4.17,App Mobile,Boleto,10,Entregue
+PED00294,2024-05-02,C010,João Pedro Silva,Brasília,DF,Calça Jeans Levi's 501,Moda,1,278.17,0.07,258.7,47.58,Site,Cartão de Débito,2,Entregue
+PED00295,2024-03-30,C008,Henrique Alves,Fortaleza,CE,Smart TV LG 50 4K,Eletrônicos,5,2805.18,0.05,13324.6,37.01,App Mobile,Cartão de Crédito,3,Entregue
+PED00296,2024-03-26,C008,Henrique Alves,Fortaleza,CE,Mouse Logitech MX Master 3,Periféricos,3,490.28,0.12,1294.34,35.97,Marketplace,Cartão de Crédito,7,Entregue
+PED00297,2024-10-22,C006,Felipe Costa,Salvador,BA,Notebook Dell Inspiron 15,Eletrônicos,4,3029.29,0.01,11995.99,35.54,Televendas,Cartão de Débito,12,Entregue
+PED00298,2024-05-10,C006,Felipe Costa,Salvador,BA,Livro SQL para Iniciantes,Livros,1,77.89,0.09,70.88,18.35,Site,Pix,14,Entregue
+PED00299,2024-07-05,C001,Ana Souza,São Paulo,SP,Livro SQL para Iniciantes,Livros,1,85.07,0.0,85.07,2.29,App Mobile,Cartão de Crédito,8,Entregue
+PED00300,2024-06-12,C013,Natália Barbosa,Florianópolis,SC,Cafeteira Nespresso Essenza,Eletrodomésticos,4,633.38,0.04,2432.18,45.7,Marketplace,Cartão de Crédito,6,Entregue
+PED00301,2024-07-24,C011,Larissa Oliveira,Goiânia,GO,Livro SQL para Iniciantes,Livros,1,71.5,0.12,62.92,48.97,Marketplace,Boleto,3,Cancelado
+PED00302,2024-06-04,C002,Bruno Lima,Rio de Janeiro,RJ,Tênis Nike Air Max,Moda,5,578.42,0.06,2718.57,14.55,App Mobile,Cartão de Débito,13,Devolvido
+PED00303,2024-10-06,C010,João Pedro Silva,Brasília,DF,Camiseta Básica Hering,Moda,4,65.86,0.12,231.83,36.55,App Mobile,Cartão de Crédito,14,Entregue
+PED00304,2024-01-05,C001,Ana Souza,São Paulo,SP,Mochila Samsonite 30L,Moda,2,442.44,0.1,796.39,34.6,Televendas,Boleto,7,Entregue
+PED00305,2024-03-13,C004,Diego Ferreira,Curitiba,PR,Smart TV LG 50 4K,Eletrônicos,5,3067.09,0.06,14415.32,47.96,Site,Cartão de Crédito,13,Entregue
+PED00306,2024-02-13,C015,Priscila Rocha,Belém,PA,Monitor LG 27 Full HD,Periféricos,5,1334.47,0.13,5804.94,22.88,App Mobile,Cartão de Débito,11,Entregue
+PED00307,2024-05-29,C010,João Pedro Silva,Brasília,DF,Fone Bluetooth JBL Tune 510,Eletrônicos,5,216.31,0.1,973.39,6.52,Televendas,Boleto,6,Entregue
+PED00308,2024-10-26,C008,Henrique Alves,Fortaleza,CE,Tênis Nike Air Max,Moda,3,544.95,0.14,1405.97,6.79,Site,Pix,3,Entregue
+PED00309,2024-04-16,C008,Henrique Alves,Fortaleza,CE,Livro Python para Dados,Livros,3,85.55,0.08,236.12,48.14,Televendas,Boleto,9,Entregue
+PED00310,2024-11-04,C002,Bruno Lima,Rio de Janeiro,RJ,Smart TV LG 50 4K,Eletrônicos,2,2944.27,0.05,5594.11,35.16,Marketplace,Pix,2,Entregue
+PED00311,2024-06-02,C012,Marcelo Torres,Manaus,AM,Fone Bluetooth JBL Tune 510,Eletrônicos,2,272.92,0.06,513.09,2.44,Site,Cartão de Débito,6,Entregue
+PED00312,2024-03-12,C009,Isabela Martins,Campinas,SP,Livro Python para Dados,Livros,5,82.03,0.07,381.44,40.11,Site,Pix,3,Entregue
+PED00313,2024-10-25,C004,Diego Ferreira,Curitiba,PR,Tablet Lenovo M10,Eletrônicos,4,1130.73,0.09,4115.86,32.17,Site,Cartão de Crédito,11,Entregue
+PED00314,2024-06-18,C004,Diego Ferreira,Curitiba,PR,Fone Bluetooth JBL Tune 510,Eletrônicos,4,262.98,0.01,1041.4,42.28,Televendas,Cartão de Crédito,3,Entregue
+PED00315,2024-07-14,C015,Priscila Rocha,Belém,PA,Mouse Logitech MX Master 3,Periféricos,5,479.05,0.11,2131.77,24.76,App Mobile,Boleto,12,Cancelado
+PED00316,2024-11-10,C015,Priscila Rocha,Belém,PA,Teclado Mecânico Redragon,Periféricos,2,302.27,0.07,562.22,7.42,App Mobile,Boleto,11,Devolvido
+PED00317,2024-08-02,C007,Gabriela Nunes,Recife,PE,Livro Clean Code,Livros,5,106.58,0.01,527.57,19.11,App Mobile,Cartão de Crédito,5,Em trânsito
+PED00318,2024-10-16,C013,Natália Barbosa,Florianópolis,SC,Calça Jeans Levi's 501,Moda,3,290.88,0.12,767.92,17.17,Televendas,Boleto,10,Entregue
+PED00319,2024-05-23,C001,Ana Souza,São Paulo,SP,Mouse Logitech MX Master 3,Periféricos,3,499.54,0.0,1498.62,40.45,Marketplace,Pix,2,Cancelado
+PED00320,2024-01-29,C002,Bruno Lima,Rio de Janeiro,RJ,Mouse Logitech MX Master 3,Periféricos,2,507.01,0.04,973.46,40.73,Televendas,Boleto,14,Entregue
+PED00321,2024-10-29,C003,Carla Mendes,Belo Horizonte,MG,Mouse Logitech MX Master 3,Periféricos,2,498.97,0.12,878.19,34.81,Marketplace,Pix,2,Em trânsito
+PED00322,2024-01-29,C004,Diego Ferreira,Curitiba,PR,Air Fryer Philips Walita,Eletrodomésticos,4,591.22,0.03,2293.93,1.89,App Mobile,Cartão de Crédito,5,Devolvido
+PED00323,2024-06-23,C008,Henrique Alves,Fortaleza,CE,Livro SQL para Iniciantes,Livros,1,74.54,0.09,67.83,40.24,Marketplace,Cartão de Crédito,13,Entregue
+PED00324,2024-09-26,C003,Carla Mendes,Belo Horizonte,MG,Notebook Dell Inspiron 15,Eletrônicos,5,3386.27,0.02,16592.72,5.53,Site,Boleto,15,Entregue
+PED00325,2024-08-11,C010,João Pedro Silva,Brasília,DF,Calça Jeans Levi's 501,Moda,1,280.15,0.05,266.14,48.7,Televendas,Boleto,14,Em trânsito
+PED00326,2024-04-24,C012,Marcelo Torres,Manaus,AM,Mouse Logitech MX Master 3,Periféricos,5,511.59,0.14,2199.84,39.27,App Mobile,Cartão de Débito,12,Devolvido
+PED00327,2024-10-20,C012,Marcelo Torres,Manaus,AM,Mesa de Escritório L Kappesberg,Móveis,3,573.11,0.11,1530.2,47.34,Site,Pix,8,Devolvido
+PED00328,2024-03-13,C006,Felipe Costa,Salvador,BA,Aspirador Robô iRobot Roomba,Eletrodomésticos,5,1990.59,0.08,9156.71,46.74,Site,Pix,7,Em trânsito
+PED00329,2024-12-09,C006,Felipe Costa,Salvador,BA,Camiseta Básica Hering,Moda,2,60.44,0.14,103.96,41.0,Marketplace,Cartão de Débito,12,Em trânsito
+PED00330,2024-02-25,C005,Elisa Ramos,Porto Alegre,RS,Notebook Dell Inspiron 15,Eletrônicos,2,3010.78,0.01,5961.34,12.81,Site,Cartão de Débito,13,Entregue
+PED00331,2024-07-12,C012,Marcelo Torres,Manaus,AM,Livro Python para Dados,Livros,4,98.2,0.13,341.74,24.6,Televendas,Cartão de Crédito,7,Devolvido
+PED00332,2024-02-07,C013,Natália Barbosa,Florianópolis,SC,Livro Clean Code,Livros,5,111.3,0.1,500.85,8.12,Marketplace,Cartão de Crédito,14,Entregue
+PED00333,2024-02-08,C005,Elisa Ramos,Porto Alegre,RS,Tênis Nike Air Max,Moda,1,521.04,0.03,505.41,18.74,Marketplace,Cartão de Débito,10,Entregue
+PED00334,2024-06-18,C007,Gabriela Nunes,Recife,PE,Notebook Dell Inspiron 15,Eletrônicos,2,3305.94,0.07,6149.05,2.67,Televendas,Boleto,5,Entregue
+PED00335,2024-09-08,C005,Elisa Ramos,Porto Alegre,RS,Mesa de Escritório L Kappesberg,Móveis,2,568.0,0.06,1067.84,27.43,Marketplace,Cartão de Crédito,4,Entregue
+PED00336,2024-02-19,C002,Bruno Lima,Rio de Janeiro,RJ,Mochila Samsonite 30L,Moda,3,474.13,0.09,1294.37,23.97,App Mobile,Boleto,2,Entregue
+PED00337,2024-12-04,C008,Henrique Alves,Fortaleza,CE,Fone Bluetooth JBL Tune 510,Eletrônicos,1,231.68,0.06,217.78,24.41,Televendas,Pix,6,Entregue
+PED00338,2024-08-26,C015,Priscila Rocha,Belém,PA,Camiseta Básica Hering,Moda,4,56.45,0.07,209.99,13.14,Marketplace,Cartão de Crédito,6,Entregue
+PED00339,2024-10-28,C013,Natália Barbosa,Florianópolis,SC,Tablet Lenovo M10,Eletrônicos,1,1044.84,0.05,992.6,27.02,Site,Cartão de Débito,5,Devolvido
+PED00340,2024-04-30,C007,Gabriela Nunes,Recife,PE,Livro SQL para Iniciantes,Livros,5,81.64,0.14,351.05,28.58,Site,Cartão de Débito,9,Entregue
+PED00341,2024-11-13,C009,Isabela Martins,Campinas,SP,Smartphone Samsung Galaxy A54,Eletrônicos,5,2041.64,0.12,8983.22,33.81,Televendas,Pix,4,Entregue
+PED00342,2024-08-10,C004,Diego Ferreira,Curitiba,PR,Mouse Logitech MX Master 3,Periféricos,2,440.69,0.06,828.5,49.32,App Mobile,Boleto,5,Em trânsito
+PED00343,2024-05-21,C015,Priscila Rocha,Belém,PA,Tênis Nike Air Max,Moda,1,522.97,0.08,481.13,27.55,Site,Cartão de Débito,10,Cancelado
+PED00344,2024-02-21,C007,Gabriela Nunes,Recife,PE,Smart TV LG 50 4K,Eletrônicos,2,2482.85,0.09,4518.79,37.84,Site,Boleto,3,Devolvido
+PED00345,2024-10-19,C015,Priscila Rocha,Belém,PA,Cafeteira Nespresso Essenza,Eletrodomésticos,3,747.56,0.04,2152.97,32.67,Site,Pix,11,Cancelado
+PED00346,2024-07-21,C007,Gabriela Nunes,Recife,PE,Cadeira Gamer ThunderX3,Móveis,2,1907.66,0.1,3433.79,20.05,App Mobile,Cartão de Crédito,7,Em trânsito
+PED00347,2024-06-04,C015,Priscila Rocha,Belém,PA,Livro Clean Code,Livros,3,118.06,0.0,354.18,40.79,Televendas,Cartão de Crédito,6,Entregue
+PED00348,2024-05-17,C003,Carla Mendes,Belo Horizonte,MG,Monitor LG 27 Full HD,Periféricos,3,1530.87,0.07,4271.13,41.21,Site,Pix,13,Cancelado
+PED00349,2024-01-29,C004,Diego Ferreira,Curitiba,PR,Livro Python para Dados,Livros,4,93.07,0.11,331.33,43.27,Site,Boleto,10,Entregue
+PED00350,2024-03-29,C007,Gabriela Nunes,Recife,PE,Livro SQL para Iniciantes,Livros,2,83.51,0.08,153.66,28.38,Site,Pix,5,Entregue
+PED00351,2024-08-25,C008,Henrique Alves,Fortaleza,CE,Smartphone Samsung Galaxy A54,Eletrônicos,1,2049.99,0.11,1824.49,13.67,Site,Cartão de Crédito,10,Cancelado
+PED00352,2024-10-27,C006,Felipe Costa,Salvador,BA,Monitor LG 27 Full HD,Periféricos,4,1397.82,0.03,5423.54,43.44,Marketplace,Pix,10,Entregue
+PED00353,2024-10-19,C012,Marcelo Torres,Manaus,AM,Cadeira Gamer ThunderX3,Móveis,1,1749.49,0.06,1644.52,8.13,App Mobile,Pix,14,Entregue
+PED00354,2024-12-15,C005,Elisa Ramos,Porto Alegre,RS,Teclado Mecânico Redragon,Periféricos,4,321.87,0.13,1120.11,48.26,App Mobile,Pix,2,Cancelado
+PED00355,2024-12-30,C013,Natália Barbosa,Florianópolis,SC,Aspirador Robô iRobot Roomba,Eletrodomésticos,1,1992.17,0.09,1812.87,47.06,Marketplace,Cartão de Débito,13,Em trânsito
+PED00356,2024-09-23,C014,Otávio Gomes,Vitória,ES,Calça Jeans Levi's 501,Moda,3,289.33,0.03,841.95,15.08,Televendas,Cartão de Crédito,15,Devolvido
+PED00357,2024-12-16,C009,Isabela Martins,Campinas,SP,Notebook Dell Inspiron 15,Eletrônicos,3,3268.1,0.09,8921.91,14.11,Site,Boleto,3,Cancelado
+PED00358,2024-11-29,C011,Larissa Oliveira,Goiânia,GO,Cadeira Gamer ThunderX3,Móveis,3,2023.14,0.04,5826.64,35.48,App Mobile,Pix,6,Entregue
+PED00359,2024-01-14,C013,Natália Barbosa,Florianópolis,SC,Smartphone Samsung Galaxy A54,Eletrônicos,5,1806.0,0.05,8578.5,6.98,Marketplace,Boleto,12,Cancelado
+PED00360,2024-04-07,C007,Gabriela Nunes,Recife,PE,Mochila Samsonite 30L,Moda,4,464.35,0.09,1690.23,49.64,App Mobile,Cartão de Débito,7,Em trânsito
+PED00361,2024-04-02,C009,Isabela Martins,Campinas,SP,Camiseta Básica Hering,Moda,3,63.58,0.13,165.94,43.74,Televendas,Pix,6,Entregue
+PED00362,2024-06-20,C012,Marcelo Torres,Manaus,AM,Cadeira Gamer ThunderX3,Móveis,5,1976.35,0.03,9585.3,33.92,App Mobile,Boleto,12,Entregue
+PED00363,2024-10-26,C012,Marcelo Torres,Manaus,AM,Monitor LG 27 Full HD,Periféricos,3,1337.07,0.13,3489.75,18.55,Site,Cartão de Débito,6,Cancelado
+PED00364,2024-04-09,C014,Otávio Gomes,Vitória,ES,Smartphone Samsung Galaxy A54,Eletrônicos,5,1889.65,0.09,8597.91,23.56,Televendas,Boleto,10,Entregue
+PED00365,2024-10-18,C001,Ana Souza,São Paulo,SP,Mochila Samsonite 30L,Moda,2,397.07,0.03,770.32,20.42,Marketplace,Pix,9,Entregue
+PED00366,2024-01-03,C008,Henrique Alves,Fortaleza,CE,Fone Bluetooth JBL Tune 510,Eletrônicos,3,251.84,0.03,732.85,31.66,App Mobile,Pix,9,Entregue
+PED00367,2024-11-10,C013,Natália Barbosa,Florianópolis,SC,Air Fryer Philips Walita,Eletrodomésticos,2,583.34,0.11,1038.35,4.39,Televendas,Cartão de Débito,8,Em trânsito
+PED00368,2024-01-08,C008,Henrique Alves,Fortaleza,CE,Mochila Samsonite 30L,Moda,4,382.17,0.08,1406.39,36.46,App Mobile,Cartão de Crédito,7,Devolvido
+PED00369,2024-02-22,C011,Larissa Oliveira,Goiânia,GO,Notebook Dell Inspiron 15,Eletrônicos,2,2991.58,0.13,5205.35,15.57,Marketplace,Pix,8,Devolvido
+PED00370,2024-11-01,C014,Otávio Gomes,Vitória,ES,Fone Bluetooth JBL Tune 510,Eletrônicos,1,231.05,0.04,221.81,36.32,Televendas,Pix,10,Entregue
+PED00371,2024-07-25,C015,Priscila Rocha,Belém,PA,Tênis Nike Air Max,Moda,4,563.79,0.03,2187.51,47.31,App Mobile,Pix,2,Entregue
+PED00372,2024-11-29,C012,Marcelo Torres,Manaus,AM,Teclado Mecânico Redragon,Periféricos,1,328.15,0.03,318.31,18.29,Televendas,Boleto,14,Entregue
+PED00373,2024-01-11,C010,João Pedro Silva,Brasília,DF,Cafeteira Nespresso Essenza,Eletrodomésticos,1,697.94,0.01,690.96,5.39,Site,Cartão de Débito,2,Em trânsito
+PED00374,2024-12-21,C007,Gabriela Nunes,Recife,PE,Livro Python para Dados,Livros,1,88.72,0.07,82.51,7.64,Site,Boleto,12,Em trânsito
+PED00375,2024-03-11,C011,Larissa Oliveira,Goiânia,GO,Mochila Samsonite 30L,Moda,1,456.01,0.04,437.77,30.22,Site,Boleto,8,Entregue
+PED00376,2024-09-24,C013,Natália Barbosa,Florianópolis,SC,Smart TV LG 50 4K,Eletrônicos,1,2727.44,0.09,2481.97,38.82,Televendas,Boleto,5,Entregue
+PED00377,2024-06-18,C001,Ana Souza,São Paulo,SP,Mouse Logitech MX Master 3,Periféricos,5,486.95,0.03,2361.71,46.56,Site,Cartão de Crédito,5,Entregue
+PED00378,2024-09-18,C014,Otávio Gomes,Vitória,ES,Smart TV LG 50 4K,Eletrônicos,5,2847.3,0.02,13951.77,4.5,Site,Boleto,3,Em trânsito
+PED00379,2024-01-21,C008,Henrique Alves,Fortaleza,CE,Monitor LG 27 Full HD,Periféricos,3,1282.35,0.01,3808.58,40.58,Marketplace,Boleto,15,Entregue
+PED00380,2024-03-11,C012,Marcelo Torres,Manaus,AM,Mochila Samsonite 30L,Moda,1,392.31,0.11,349.16,2.29,App Mobile,Boleto,12,Em trânsito
+PED00381,2024-07-09,C015,Priscila Rocha,Belém,PA,Camiseta Básica Hering,Moda,4,65.22,0.04,250.44,36.58,App Mobile,Cartão de Crédito,15,Entregue
+PED00382,2024-08-03,C007,Gabriela Nunes,Recife,PE,Calça Jeans Levi's 501,Moda,4,275.3,0.06,1035.13,42.45,Site,Pix,12,Entregue
+PED00383,2024-10-18,C014,Otávio Gomes,Vitória,ES,Smartphone Samsung Galaxy A54,Eletrônicos,2,1663.39,0.14,2861.03,24.09,App Mobile,Cartão de Débito,12,Cancelado
+PED00384,2024-03-07,C010,João Pedro Silva,Brasília,DF,Camiseta Básica Hering,Moda,1,63.83,0.13,55.53,36.29,Site,Cartão de Débito,9,Cancelado
+PED00385,2024-12-13,C001,Ana Souza,São Paulo,SP,Livro Python para Dados,Livros,1,82.29,0.05,78.18,35.16,App Mobile,Boleto,10,Em trânsito
+PED00386,2024-06-26,C009,Isabela Martins,Campinas,SP,Livro SQL para Iniciantes,Livros,5,69.82,0.1,314.19,12.4,Televendas,Pix,12,Em trânsito
+PED00387,2024-08-28,C015,Priscila Rocha,Belém,PA,Cafeteira Nespresso Essenza,Eletrodomésticos,5,603.69,0.1,2716.61,7.83,App Mobile,Cartão de Crédito,15,Cancelado
+PED00388,2024-10-08,C006,Felipe Costa,Salvador,BA,Livro Clean Code,Livros,2,102.51,0.04,196.82,25.3,Televendas,Pix,12,Cancelado
+PED00389,2024-08-16,C008,Henrique Alves,Fortaleza,CE,Fone Bluetooth JBL Tune 510,Eletrônicos,4,262.47,0.07,976.39,42.74,Televendas,Cartão de Crédito,7,Entregue
+PED00390,2024-11-05,C007,Gabriela Nunes,Recife,PE,Smart TV LG 50 4K,Eletrônicos,4,2404.22,0.08,8847.53,41.21,Marketplace,Pix,11,Em trânsito
+PED00391,2024-06-18,C006,Felipe Costa,Salvador,BA,Livro Python para Dados,Livros,3,94.96,0.12,250.69,42.13,Televendas,Boleto,10,Devolvido
+PED00392,2024-11-20,C002,Bruno Lima,Rio de Janeiro,RJ,Livro Python para Dados,Livros,1,93.48,0.03,90.68,17.03,Marketplace,Cartão de Crédito,14,Entregue
+PED00393,2024-07-28,C015,Priscila Rocha,Belém,PA,Smartphone Samsung Galaxy A54,Eletrônicos,2,1847.93,0.12,3252.36,37.05,App Mobile,Pix,3,Entregue
+PED00394,2024-06-22,C015,Priscila Rocha,Belém,PA,Smart TV LG 50 4K,Eletrônicos,4,2530.01,0.12,8905.64,9.51,Site,Cartão de Crédito,3,Cancelado
+PED00395,2024-09-28,C008,Henrique Alves,Fortaleza,CE,Livro Python para Dados,Livros,5,97.91,0.02,479.76,24.89,Televendas,Cartão de Débito,13,Entregue
+PED00396,2024-02-23,C013,Natália Barbosa,Florianópolis,SC,Livro SQL para Iniciantes,Livros,2,81.73,0.03,158.56,40.68,Marketplace,Cartão de Débito,8,Em trânsito
+PED00397,2024-08-19,C010,João Pedro Silva,Brasília,DF,Mochila Samsonite 30L,Moda,2,412.36,0.14,709.26,48.43,App Mobile,Cartão de Débito,14,Entregue
+PED00398,2024-12-30,C012,Marcelo Torres,Manaus,AM,Aspirador Robô iRobot Roomba,Eletrodomésticos,5,2033.48,0.11,9048.99,42.95,App Mobile,Pix,13,Devolvido
+PED00399,2024-12-29,C010,João Pedro Silva,Brasília,DF,Teclado Mecânico Redragon,Periféricos,3,336.12,0.14,867.19,6.62,Marketplace,Cartão de Crédito,12,Entregue
+PED00400,2024-12-11,C009,Isabela Martins,Campinas,SP,Camiseta Básica Hering,Moda,4,59.64,0.14,205.16,35.44,Marketplace,Cartão de Débito,13,Devolvido
+PED00401,2024-04-12,C009,Isabela Martins,Campinas,SP,Notebook Dell Inspiron 15,Eletrônicos,1,2825.76,0.02,2769.24,33.45,Marketplace,Boleto,6,Entregue
+PED00402,2024-01-17,C014,Otávio Gomes,Vitória,ES,Tablet Lenovo M10,Eletrônicos,1,1226.16,0.04,1177.11,37.6,Site,Pix,7,Cancelado
+PED00403,2024-12-20,C007,Gabriela Nunes,Recife,PE,Cafeteira Nespresso Essenza,Eletrodomésticos,2,683.43,0.12,1202.84,34.74,Televendas,Cartão de Débito,12,Entregue
+PED00404,2024-04-13,C013,Natália Barbosa,Florianópolis,SC,Mochila Samsonite 30L,Moda,3,490.06,0.01,1455.48,37.11,App Mobile,Boleto,11,Cancelado
+PED00405,2024-08-17,C009,Isabela Martins,Campinas,SP,Air Fryer Philips Walita,Eletrodomésticos,5,539.38,0.11,2400.24,9.66,Site,Pix,4,Em trânsito
+PED00406,2024-05-15,C012,Marcelo Torres,Manaus,AM,Mouse Logitech MX Master 3,Periféricos,5,439.83,0.01,2177.16,13.93,Marketplace,Cartão de Crédito,4,Entregue
+PED00407,2024-11-16,C008,Henrique Alves,Fortaleza,CE,Tênis Nike Air Max,Moda,2,515.91,0.14,887.37,29.78,Marketplace,Cartão de Débito,11,Em trânsito
+PED00408,2024-04-04,C009,Isabela Martins,Campinas,SP,Air Fryer Philips Walita,Eletrodomésticos,3,520.85,0.11,1390.67,26.22,App Mobile,Cartão de Débito,10,Entregue
+PED00409,2024-06-18,C009,Isabela Martins,Campinas,SP,Cafeteira Nespresso Essenza,Eletrodomésticos,4,610.22,0.03,2367.65,10.65,Marketplace,Pix,7,Entregue
+PED00410,2024-01-05,C009,Isabela Martins,Campinas,SP,Aspirador Robô iRobot Roomba,Eletrodomésticos,4,2417.05,0.12,8508.02,48.96,Marketplace,Cartão de Débito,3,Em trânsito
+PED00411,2024-06-13,C015,Priscila Rocha,Belém,PA,Monitor LG 27 Full HD,Periféricos,5,1511.4,0.04,7254.72,1.99,Televendas,Boleto,8,Entregue
+PED00412,2024-09-20,C012,Marcelo Torres,Manaus,AM,Cafeteira Nespresso Essenza,Eletrodomésticos,3,598.47,0.08,1651.78,38.45,Televendas,Cartão de Débito,14,Devolvido
+PED00413,2024-10-02,C005,Elisa Ramos,Porto Alegre,RS,Smartphone Samsung Galaxy A54,Eletrônicos,2,1766.22,0.01,3497.12,4.79,Site,Pix,10,Entregue
+PED00414,2024-08-10,C014,Otávio Gomes,Vitória,ES,Teclado Mecânico Redragon,Periféricos,4,348.38,0.03,1351.71,41.35,App Mobile,Cartão de Crédito,12,Entregue
+PED00415,2024-05-08,C012,Marcelo Torres,Manaus,AM,Livro Python para Dados,Livros,3,77.27,0.01,229.49,8.88,App Mobile,Boleto,10,Entregue
+PED00416,2024-12-10,C007,Gabriela Nunes,Recife,PE,Mochila Samsonite 30L,Moda,4,452.39,0.06,1700.99,0.84,Site,Cartão de Crédito,3,Devolvido
+PED00417,2024-12-17,C001,Ana Souza,São Paulo,SP,Air Fryer Philips Walita,Eletrodomésticos,1,563.56,0.08,518.48,14.46,Site,Boleto,6,Devolvido
+PED00418,2024-04-22,C007,Gabriela Nunes,Recife,PE,Livro Python para Dados,Livros,4,94.89,0.0,379.56,7.8,Televendas,Boleto,4,Em trânsito
+PED00419,2024-03-13,C005,Elisa Ramos,Porto Alegre,RS,Tablet Lenovo M10,Eletrônicos,3,1306.13,0.0,3918.39,43.65,Site,Cartão de Débito,3,Entregue
+PED00420,2024-06-25,C009,Isabela Martins,Campinas,SP,Cafeteira Nespresso Essenza,Eletrodomésticos,1,647.39,0.11,576.18,45.09,App Mobile,Pix,5,Cancelado
+PED00421,2024-10-17,C004,Diego Ferreira,Curitiba,PR,Mouse Logitech MX Master 3,Periféricos,5,529.24,0.03,2566.81,9.05,Televendas,Cartão de Crédito,15,Entregue
+PED00422,2024-06-18,C011,Larissa Oliveira,Goiânia,GO,Mesa de Escritório L Kappesberg,Móveis,1,593.15,0.03,575.36,28.97,App Mobile,Cartão de Crédito,7,Entregue
+PED00423,2024-11-11,C010,João Pedro Silva,Brasília,DF,Mesa de Escritório L Kappesberg,Móveis,1,698.66,0.05,663.73,22.49,App Mobile,Boleto,12,Entregue
+PED00424,2024-11-24,C007,Gabriela Nunes,Recife,PE,Tênis Nike Air Max,Moda,2,510.64,0.04,980.43,11.05,Marketplace,Pix,8,Entregue
+PED00425,2024-10-09,C015,Priscila Rocha,Belém,PA,Tênis Nike Air Max,Moda,4,579.33,0.05,2201.45,15.24,Site,Boleto,3,Entregue
+PED00426,2024-02-08,C015,Priscila Rocha,Belém,PA,Tablet Lenovo M10,Eletrônicos,5,1078.03,0.11,4797.23,31.27,Site,Cartão de Débito,2,Devolvido
+PED00427,2024-08-29,C004,Diego Ferreira,Curitiba,PR,Air Fryer Philips Walita,Eletrodomésticos,1,592.64,0.08,545.23,49.84,Marketplace,Cartão de Débito,12,Entregue
+PED00428,2024-09-18,C015,Priscila Rocha,Belém,PA,Monitor LG 27 Full HD,Periféricos,5,1446.53,0.04,6943.34,23.19,Marketplace,Cartão de Crédito,3,Cancelado
+PED00429,2024-03-22,C014,Otávio Gomes,Vitória,ES,Monitor LG 27 Full HD,Periféricos,5,1429.35,0.11,6360.61,7.0,App Mobile,Cartão de Débito,4,Devolvido
+PED00430,2024-04-29,C001,Ana Souza,São Paulo,SP,Camiseta Básica Hering,Moda,2,62.32,0.03,120.9,13.19,App Mobile,Boleto,2,Em trânsito
+PED00431,2024-02-22,C008,Henrique Alves,Fortaleza,CE,Calça Jeans Levi's 501,Moda,4,321.01,0.01,1271.2,32.36,Marketplace,Boleto,13,Devolvido
+PED00432,2024-11-30,C009,Isabela Martins,Campinas,SP,Air Fryer Philips Walita,Eletrodomésticos,5,535.99,0.1,2411.95,18.23,Marketplace,Cartão de Débito,15,Entregue
+PED00433,2024-09-03,C009,Isabela Martins,Campinas,SP,Monitor LG 27 Full HD,Periféricos,4,1313.42,0.13,4570.7,24.29,App Mobile,Cartão de Débito,11,Entregue
+PED00434,2024-03-21,C004,Diego Ferreira,Curitiba,PR,Mouse Logitech MX Master 3,Periféricos,1,489.22,0.04,469.65,7.5,Site,Pix,7,Devolvido
+PED00435,2024-04-17,C013,Natália Barbosa,Florianópolis,SC,Mochila Samsonite 30L,Moda,3,462.5,0.07,1290.38,23.89,Televendas,Cartão de Crédito,11,Entregue
+PED00436,2024-01-21,C001,Ana Souza,São Paulo,SP,Monitor LG 27 Full HD,Periféricos,2,1390.62,0.02,2725.62,31.41,Site,Pix,11,Entregue
+PED00437,2024-11-22,C015,Priscila Rocha,Belém,PA,Cadeira Gamer ThunderX3,Móveis,2,1859.43,0.06,3495.73,48.37,Marketplace,Cartão de Crédito,2,Em trânsito
+PED00438,2024-07-29,C008,Henrique Alves,Fortaleza,CE,Teclado Mecânico Redragon,Periféricos,5,361.31,0.13,1571.7,8.51,App Mobile,Boleto,11,Entregue
+PED00439,2024-07-12,C012,Marcelo Torres,Manaus,AM,Mouse Logitech MX Master 3,Periféricos,3,540.19,0.09,1474.72,3.44,Site,Cartão de Crédito,8,Entregue
+PED00440,2024-03-31,C009,Isabela Martins,Campinas,SP,Teclado Mecânico Redragon,Periféricos,5,335.94,0.12,1478.14,30.21,Site,Cartão de Crédito,9,Devolvido
+PED00441,2024-12-13,C008,Henrique Alves,Fortaleza,CE,Fone Bluetooth JBL Tune 510,Eletrônicos,2,268.77,0.08,494.54,0.06,Televendas,Boleto,12,Cancelado
+PED00442,2024-07-14,C012,Marcelo Torres,Manaus,AM,Smartphone Samsung Galaxy A54,Eletrônicos,5,1817.8,0.14,7816.54,24.06,Site,Cartão de Débito,7,Devolvido
+PED00443,2024-11-02,C005,Elisa Ramos,Porto Alegre,RS,Tablet Lenovo M10,Eletrônicos,4,1248.72,0.14,4295.6,4.18,Marketplace,Pix,10,Cancelado
+PED00444,2024-12-01,C012,Marcelo Torres,Manaus,AM,Notebook Dell Inspiron 15,Eletrônicos,1,3281.74,0.02,3216.11,0.36,Marketplace,Cartão de Débito,5,Em trânsito
+PED00445,2024-10-01,C002,Bruno Lima,Rio de Janeiro,RJ,Camiseta Básica Hering,Moda,2,57.3,0.09,104.29,13.04,Marketplace,Boleto,8,Devolvido
+PED00446,2024-07-08,C013,Natália Barbosa,Florianópolis,SC,Calça Jeans Levi's 501,Moda,2,285.9,0.12,503.18,24.08,Televendas,Boleto,10,Devolvido
+PED00447,2024-12-03,C010,João Pedro Silva,Brasília,DF,Mesa de Escritório L Kappesberg,Móveis,3,678.2,0.06,1912.52,6.89,App Mobile,Cartão de Débito,3,Em trânsito
+PED00448,2024-11-10,C002,Bruno Lima,Rio de Janeiro,RJ,Mouse Logitech MX Master 3,Periféricos,2,488.45,0.12,859.67,39.96,Site,Pix,13,Em trânsito
+PED00449,2024-11-03,C011,Larissa Oliveira,Goiânia,GO,Calça Jeans Levi's 501,Moda,1,315.22,0.12,277.39,23.54,Site,Boleto,8,Entregue
+PED00450,2024-07-24,C006,Felipe Costa,Salvador,BA,Monitor LG 27 Full HD,Periféricos,1,1403.06,0.11,1248.72,46.44,Marketplace,Cartão de Crédito,11,Em trânsito
+PED00451,2024-09-22,C011,Larissa Oliveira,Goiânia,GO,Mouse Logitech MX Master 3,Periféricos,4,479.78,0.03,1861.55,32.78,Site,Pix,6,Entregue
+PED00452,2024-02-14,C003,Carla Mendes,Belo Horizonte,MG,Aspirador Robô iRobot Roomba,Eletrodomésticos,1,2066.92,0.1,1860.23,48.68,Marketplace,Cartão de Débito,6,Cancelado
+PED00453,2024-02-16,C010,João Pedro Silva,Brasília,DF,Calça Jeans Levi's 501,Moda,2,293.73,0.11,522.84,3.42,Marketplace,Boleto,10,Entregue
+PED00454,2024-01-03,C004,Diego Ferreira,Curitiba,PR,Cadeira Gamer ThunderX3,Móveis,5,2071.36,0.07,9631.82,20.16,Televendas,Cartão de Crédito,6,Entregue
+PED00455,2024-05-11,C002,Bruno Lima,Rio de Janeiro,RJ,Cafeteira Nespresso Essenza,Eletrodomésticos,5,645.57,0.14,2775.95,40.07,Marketplace,Cartão de Débito,10,Devolvido
+PED00456,2024-08-22,C010,João Pedro Silva,Brasília,DF,Calça Jeans Levi's 501,Moda,4,312.64,0.11,1113.0,47.97,Site,Cartão de Débito,12,Cancelado
+PED00457,2024-12-25,C005,Elisa Ramos,Porto Alegre,RS,Smart TV LG 50 4K,Eletrônicos,1,2646.93,0.12,2329.3,11.0,Televendas,Boleto,5,Entregue
+PED00458,2024-07-23,C009,Isabela Martins,Campinas,SP,Livro SQL para Iniciantes,Livros,1,81.91,0.04,78.63,14.34,Marketplace,Cartão de Crédito,12,Em trânsito
+PED00459,2024-05-17,C015,Priscila Rocha,Belém,PA,Cafeteira Nespresso Essenza,Eletrodomésticos,2,677.43,0.05,1287.12,44.63,App Mobile,Cartão de Débito,4,Em trânsito
+PED00460,2024-05-07,C004,Diego Ferreira,Curitiba,PR,Teclado Mecânico Redragon,Periféricos,2,351.43,0.03,681.77,10.12,Marketplace,Pix,15,Devolvido
+PED00461,2024-10-04,C002,Bruno Lima,Rio de Janeiro,RJ,Smart TV LG 50 4K,Eletrônicos,1,2852.05,0.1,2566.85,30.63,Marketplace,Boleto,2,Cancelado
+PED00462,2024-09-18,C015,Priscila Rocha,Belém,PA,Livro Clean Code,Livros,5,117.28,0.07,545.35,49.12,App Mobile,Pix,6,Cancelado
+PED00463,2024-07-20,C009,Isabela Martins,Campinas,SP,Smartphone Samsung Galaxy A54,Eletrônicos,4,1841.23,0.08,6775.73,25.07,App Mobile,Cartão de Débito,15,Em trânsito
+PED00464,2024-04-17,C012,Marcelo Torres,Manaus,AM,Smart TV LG 50 4K,Eletrônicos,5,2701.08,0.1,12154.86,0.59,Site,Boleto,8,Devolvido
+PED00465,2024-11-09,C010,João Pedro Silva,Brasília,DF,Camiseta Básica Hering,Moda,3,53.72,0.04,154.71,13.44,App Mobile,Cartão de Débito,7,Entregue
+PED00466,2024-05-23,C004,Diego Ferreira,Curitiba,PR,Mochila Samsonite 30L,Moda,4,460.3,0.06,1730.73,42.63,App Mobile,Pix,9,Entregue
+PED00467,2024-04-10,C012,Marcelo Torres,Manaus,AM,Smart TV LG 50 4K,Eletrônicos,3,2941.81,0.08,8119.4,42.73,App Mobile,Cartão de Débito,4,Em trânsito
+PED00468,2024-09-21,C003,Carla Mendes,Belo Horizonte,MG,Notebook Dell Inspiron 15,Eletrônicos,4,3217.07,0.15,10938.04,42.38,Marketplace,Cartão de Débito,10,Em trânsito
+PED00469,2024-03-24,C005,Elisa Ramos,Porto Alegre,RS,Mesa de Escritório L Kappesberg,Móveis,5,691.9,0.01,3424.9,4.94,Marketplace,Cartão de Débito,2,Entregue
+PED00470,2024-05-11,C008,Henrique Alves,Fortaleza,CE,Smart TV LG 50 4K,Eletrônicos,3,2560.92,0.05,7298.62,27.82,Televendas,Cartão de Crédito,7,Entregue
+PED00471,2024-03-30,C014,Otávio Gomes,Vitória,ES,Camiseta Básica Hering,Moda,5,53.89,0.09,245.2,32.39,Marketplace,Boleto,14,Entregue
+PED00472,2024-11-19,C008,Henrique Alves,Fortaleza,CE,Livro SQL para Iniciantes,Livros,4,85.69,0.06,322.19,14.3,Marketplace,Cartão de Débito,4,Entregue
+PED00473,2024-04-26,C010,João Pedro Silva,Brasília,DF,Aspirador Robô iRobot Roomba,Eletrodomésticos,4,2335.83,0.01,9249.89,8.08,Marketplace,Boleto,7,Entregue
+PED00474,2024-07-04,C011,Larissa Oliveira,Goiânia,GO,Aspirador Robô iRobot Roomba,Eletrodomésticos,4,2018.27,0.07,7507.96,43.05,Televendas,Cartão de Débito,13,Devolvido
+PED00475,2024-12-24,C003,Carla Mendes,Belo Horizonte,MG,Mouse Logitech MX Master 3,Periféricos,1,440.54,0.04,422.92,12.56,App Mobile,Pix,13,Entregue
+PED00476,2024-01-14,C002,Bruno Lima,Rio de Janeiro,RJ,Calça Jeans Levi's 501,Moda,1,259.7,0.13,225.94,27.37,Site,Cartão de Crédito,14,Cancelado
+PED00477,2024-04-27,C010,João Pedro Silva,Brasília,DF,Cadeira Gamer ThunderX3,Móveis,2,1654.18,0.14,2845.19,19.45,Marketplace,Cartão de Débito,5,Em trânsito
+PED00478,2024-06-15,C003,Carla Mendes,Belo Horizonte,MG,Tablet Lenovo M10,Eletrônicos,5,1270.5,0.0,6352.5,33.11,Televendas,Boleto,15,Cancelado
+PED00479,2024-11-01,C008,Henrique Alves,Fortaleza,CE,Cafeteira Nespresso Essenza,Eletrodomésticos,2,763.58,0.1,1374.44,8.83,Televendas,Boleto,9,Em trânsito
+PED00480,2024-07-30,C008,Henrique Alves,Fortaleza,CE,Camiseta Básica Hering,Moda,5,54.32,0.01,268.88,15.36,Marketplace,Cartão de Crédito,6,Entregue
+PED00481,2024-09-08,C009,Isabela Martins,Campinas,SP,Notebook Dell Inspiron 15,Eletrônicos,2,3088.61,0.07,5744.81,0.42,Marketplace,Cartão de Crédito,14,Cancelado
+PED00482,2024-04-06,C013,Natália Barbosa,Florianópolis,SC,Mochila Samsonite 30L,Moda,3,448.66,0.12,1184.46,27.36,Televendas,Cartão de Débito,8,Devolvido
+PED00483,2024-11-16,C003,Carla Mendes,Belo Horizonte,MG,Monitor LG 27 Full HD,Periféricos,4,1479.84,0.03,5741.78,3.95,Marketplace,Boleto,5,Devolvido
+PED00484,2024-05-28,C013,Natália Barbosa,Florianópolis,SC,Cafeteira Nespresso Essenza,Eletrodomésticos,3,666.3,0.13,1739.04,9.1,Televendas,Cartão de Débito,3,Em trânsito
+PED00485,2024-09-30,C012,Marcelo Torres,Manaus,AM,Cadeira Gamer ThunderX3,Móveis,5,1847.73,0.05,8776.72,7.59,Site,Boleto,2,Entregue
+PED00486,2024-09-09,C003,Carla Mendes,Belo Horizonte,MG,Cadeira Gamer ThunderX3,Móveis,4,1959.34,0.03,7602.24,7.52,Televendas,Boleto,5,Entregue
+PED00487,2024-03-15,C006,Felipe Costa,Salvador,BA,Livro Clean Code,Livros,4,112.56,0.0,450.24,4.0,Televendas,Cartão de Crédito,2,Entregue
+PED00488,2024-01-07,C008,Henrique Alves,Fortaleza,CE,Cafeteira Nespresso Essenza,Eletrodomésticos,2,627.74,0.13,1092.27,40.78,App Mobile,Cartão de Débito,3,Em trânsito
+PED00489,2024-12-06,C004,Diego Ferreira,Curitiba,PR,Livro Python para Dados,Livros,1,80.89,0.11,71.99,4.69,Televendas,Boleto,5,Cancelado
+PED00490,2024-09-03,C003,Carla Mendes,Belo Horizonte,MG,Tênis Nike Air Max,Moda,1,621.61,0.08,571.88,6.09,App Mobile,Boleto,12,Entregue
+PED00491,2024-01-08,C014,Otávio Gomes,Vitória,ES,Smartphone Samsung Galaxy A54,Eletrônicos,2,2076.21,0.04,3986.32,21.66,Site,Cartão de Débito,4,Entregue
+PED00492,2024-03-20,C001,Ana Souza,São Paulo,SP,Monitor LG 27 Full HD,Periféricos,1,1393.28,0.1,1253.95,34.35,App Mobile,Pix,7,Entregue
+PED00493,2024-01-31,C002,Bruno Lima,Rio de Janeiro,RJ,Livro Clean Code,Livros,5,102.71,0.15,436.52,37.9,App Mobile,Cartão de Crédito,2,Entregue
+PED00494,2024-06-26,C008,Henrique Alves,Fortaleza,CE,Tablet Lenovo M10,Eletrônicos,2,1114.09,0.08,2049.93,32.17,App Mobile,Cartão de Crédito,14,Cancelado
+PED00495,2024-10-13,C006,Felipe Costa,Salvador,BA,Calça Jeans Levi's 501,Moda,2,273.71,0.01,541.95,35.26,Televendas,Pix,6,Devolvido
+PED00496,2024-11-02,C003,Carla Mendes,Belo Horizonte,MG,Air Fryer Philips Walita,Eletrodomésticos,5,562.06,0.11,2501.17,13.74,App Mobile,Cartão de Crédito,15,Devolvido
+PED00497,2024-01-01,C003,Carla Mendes,Belo Horizonte,MG,Livro SQL para Iniciantes,Livros,4,73.82,0.04,283.47,18.32,Televendas,Pix,14,Em trânsito
+PED00498,2024-12-03,C010,João Pedro Silva,Brasília,DF,Notebook Dell Inspiron 15,Eletrônicos,3,3445.11,0.04,9921.92,35.98,App Mobile,Cartão de Débito,10,Cancelado
+PED00499,2024-02-19,C003,Carla Mendes,Belo Horizonte,MG,Cafeteira Nespresso Essenza,Eletrodomésticos,5,643.63,0.06,3025.06,16.07,Site,Cartão de Crédito,10,Em trânsito
+PED00500,2024-10-19,C003,Carla Mendes,Belo Horizonte,MG,Tablet Lenovo M10,Eletrônicos,1,1079.72,0.07,1004.14,4.93,Televendas,Boleto,12,Cancelado
